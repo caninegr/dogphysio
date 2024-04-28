@@ -67,7 +67,9 @@ const HomeFreelancer = () => {
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
-                      data-aos-delay="0"
+                      data-aos-delay="200"
+                      data-aos-offset="-2000"
+                      data-aos-duration="3000"
                     >
                       <div className="ptf-custom--5512">
                         {/* <!--Mask Image--> */}
