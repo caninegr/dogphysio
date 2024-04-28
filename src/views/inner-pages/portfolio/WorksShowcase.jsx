@@ -68,9 +68,6 @@ const WorksShowcase = () => {
 
 
             <section>
-
-
-
               
               {/* <!--Spacer--> */}
               <div
@@ -127,7 +124,7 @@ const WorksShowcase = () => {
                 ></div>
 
                 {/* <!--Animated Block--> */}
-                <div
+                <div style={{"width" : "70%"}} 
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
