@@ -6,6 +6,7 @@ const menuContent = [
     name: "Home",
     activeClass: "sf-with-ul",
     menuClass: "two-columns current-menu-item",
+    link: "https://www.google.com",
     dropDownItems: [
       {
         name: "Home Default",
@@ -41,6 +42,13 @@ const menuContent = [
       },
     ],
   },
+  {
+    name: "αρχικη",
+    activeClass: "",
+    menuClass: "",
+    link: "/",
+    dropDownItems: []
+  },  
   {
     name: "Portfolio",
     activeClass: "",
@@ -147,22 +155,41 @@ const menuContent = [
 const DropdownMenu = () => {
   return (
     <ul className="sf-menu">
+
       {menuContent.map((item, i) => (
         <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href="#" className={item.activeClass}>
+          <a href={item.link} className={item.activeClass}>
             <span>{item.name}</span>
           </a>
+        
+          {console.log("item:", item)}
+          {console.log("length:", item.dropDownItems.length)}
+          {console.log("counter:", i)}
+
+          if ( test === 0 ) {
+            console.log("WOOF!")
+          }
+
+          
+          
 
           <ul className="sub-menu mega">
-            {item.dropDownItems.map((val, i) => (
-              <li key={i}>
-                <Link to={val.routerPath}>
-                  {" "}
-                  <span>{val.name}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          {item.dropDownItems.map((val, i) => (
+            
+            console.log("val:",val),
+            console.log("i:",i),
+            <li key={i}>
+              <Link to={val.routerPath}>
+                {" "}
+                <span>{val.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        
+
+
         </li>
       ))}
     </ul>

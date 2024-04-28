@@ -39,8 +39,7 @@ const Service = () => {
                     data-aos-delay="0"
                   >
                     <h2 className="h1 large-heading">
-                      Our <br />
-                      Services
+                      Υπηρεσίες <br />
                     </h2>
                     {/* <!--Spacer--> */}
                     <div
@@ -48,9 +47,11 @@ const Service = () => {
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-18">
-                      We help ambitious businesses like yours generate more
-                      profits by building awareness, driving web traffic,
-                      connecting with customers and growing overall sales.
+                        Ο βασικός μας στόχος είναι να παρέχουμε στα 
+                        κατοικίδιά σας λύσεις θεραπείας και αποκατάστασης 
+                        χρησιμοποιώντας φυσικά, μη επεμβατικά μέσα 
+                        θεραπείας (φως, θερμότητα, ρεύμα, κίνηση), και 
+                        βελονισμό, όλα με σκοπό την καλύτερη ποιότητα ζωής τους.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -99,7 +100,7 @@ const Service = () => {
                 data-aos="fade"
                 data-aos-delay="0"
               >
-                <h2 className="h1 large-heading">Our Approach</h2>
+                <h2 className="h1 large-heading">Η Διαδρομή</h2>
               </div>
               {/* <!--Spacer--> */}
               <div

@@ -11,7 +11,7 @@ const WorksShowcase = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--work-showcase-1">
       <Helmet>
-        <title>Moonex - Works Showcase</title>
+        <title>Περιστατικά & Παθήσεις</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -36,8 +36,8 @@ const WorksShowcase = () => {
                       data-aos-delay="0"
                     >
                       <h1 className="large-heading">
-                        Lewis Studio <br />
-                        Website
+                        Δυσπλασία <br />
+                        Ισχίων
                       </h1>
                       {/* <!--Spacer--> */}
                       <div
@@ -66,53 +66,29 @@ const WorksShowcase = () => {
               ></div>
             </section>
 
-            <section>
-              <div className="container-xxl">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  {/* <!--Simple Image--> */}
-                  <div className="ptf-simple-image">
-                    <a
-                      href="assets/img/portfolio/single-work/content-image-1.png"
-                      rel="nofollow"
-                    >
-                      <img
-                        src="assets/img/portfolio/single-work/content-image-1.png"
-                        alt="work"
-                        loading="lazy"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </section>
 
             <section>
+
+
+
+              
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "3.125rem" }}
+                style={{ "--ptf-xxl": "1rem", "--ptf-md": "3.125rem" }}
               ></div>
 
               <div className="container">
+
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <p className="fz-30 has-black-color">
-                    Lewis Studio Website is a startup that aims to supply energy
-                    (starting with gas) to domestic household acrossthe UK.
-                    Create a very simple yet stunning logotype and promo site
-                    that sets the brand of Entice Energy apart from the
-                    competitors like a fresh take on an already saturated area.
-                  </p>
-                </div>
+                  {/* <!--Gallery--> */}
+                  <ImageGridThree />
+                </div>                
 
                 {/* <!--Spacer--> */}
                 <div
@@ -141,7 +117,7 @@ const WorksShowcase = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2>Challenge</h2>
+                  <h2>Θεραπεία</h2>
                 </div>
 
                 {/* <!--Spacer--> */}
@@ -157,10 +133,16 @@ const WorksShowcase = () => {
                   data-aos-delay="0"
                 >
                   <p className="fz-18">
-                    Create an unconventional yet user-friendly website –
-                    innovative, with a clean and simple design that communicates
-                    brand values and showcases multi-media content. Site that
-                    spreads the message: "Islamic stories your child will love"
+                    Η δυσπλασία των ισχίων είναι μια κοινή πάθηση στο σκύλο αλλά με 
+                    σωστή διαχείριση και φυσικοθεραπεία τα σκυλιά μπορούν να 
+                    ζήσουν μια ποιοτική και χαρούμενη ζωή!                     
+                    <br />
+                    Δημιουργήσαμε ένα πλάνο διαχείρισης που περιλάμβανε υδροθεραπείες, 
+                    ασκησιολόγιο εντοπισμένο για την ενδυνάμωση στα οπίσθια άκρα του, 
+                    φυσικοθεραπείες με χρήση laser για τη διαχείριση του πόνου 
+                    και εκπαίδευση.
+                    <br />
+
                   </p>
                 </div>
 
@@ -202,43 +184,12 @@ const WorksShowcase = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  {/* <!--Twitter Review--> */}
-                  <div className="ptf-twitter-review ptf-twitter-review--style-3">
-                    <div className="ptf-twitter-review__header">
-                      <div className="ptf-twitter-review__avatar">
-                        <img
-                          src="assets/img/root/twitter-avatar.png"
-                          alt=""
-                          loading="lazy"
-                        />
-                      </div>
-                      <div className="ptf-twitter-review__meta">
-                        <h6 className="ptf-twitter-review__author">
-                          Thiago Alcantara
-                        </h6>
-                        <div className="ptf-twitter-review__info">
-                          <a href="#">@thiago.lfc</a> - 15 Dec, 2022
-                        </div>
-                      </div>
-                      <div className="ptf-twitter-review__icon">
-                        <i className="socicon-twitter"></i>
-                      </div>
-                    </div>
-                    <div className="ptf-twitter-review__content">
-                      <p>
-                        The team at <a href="#">@moonexlabs</a> is incredibly
-                        dedicated, knowledgeable, and helpful. The finished
-                        product was beautiful, and worth every penny. I would
-                        absolutely recommend Moonex Labs.
-                      </p>
-                    </div>
-                  </div>
                 </div>
 
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                  style={{ "--ptf-xxl": "2.25rem", "--ptf-md": "3.125rem" }}
                 ></div>
 
                 {/* <!--Animated Block--> */}
@@ -247,7 +198,7 @@ const WorksShowcase = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2>Solution</h2>
+                  <h2>Αποτέλεσμα</h2>
                 </div>
 
                 {/* <!--Spacer--> */}
@@ -263,43 +214,29 @@ const WorksShowcase = () => {
                   data-aos-delay="0"
                 >
                   <p className="fz-18">
-                    Our approach was to present the site as a visual editorial
-                    platform with quarterly features based on events and
-                    occasions the brand was focused on. Each quarterly focus
-                    would be marked by the hero and custom tags that filter
-                    content.
+                    Μέσα σε 2 μήνες καταφέραμε να δυναμώσουμε τα πίσω πόδια 
+                    του, να αυξήσουμε το εύρος κίνησης στα ισχία, να 
+                    ελαττώσουμε το βάρος του και να βελτιώσουμε το 
+                    καρδιαναπνευστικο του σύστημα. Παράλληλα με την φυσικοθεραπεία 
+                    του, έκανε και εκπαίδευση και πλέον τοποθετηθεί μπροστινά 
+                    και πίσω πόδια σε αντικείμενα και ανεβαίνει ξανά σκάλες. 
+                    Είναι δεινός κολυμβητής και σίγουρα θα τον έχετε δει 
+                    να πλατσουρίζει στην πισίνα μας το καλοκαίρι!                     
                   </p>
                 </div>
 
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
+                  style={{ "--ptf-xxl": "4.5625rem" }}
+                ></div>                
 
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  {/* <!--Gallery--> */}
-                  <ImageGridThree />
-                </div>
+
+
               </div>
             </section>
 
-            <section>
-              {/* <!--Post Navigation--> */}
-              <div className="ptf-post-navigation ptf-post-navigation--style-2">
-                <div className="container">
-                  <span>Next Project</span>
-                  <a className="h1 large-heading ptf-filled-link" href="#">
-                    SPA Brand
-                  </a>
-                </div>
-              </div>
-            </section>
+
           </article>
           {/* End .ptf-page */}
         </div>

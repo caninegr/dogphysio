@@ -57,22 +57,22 @@ const Footer = () => {
             className="ptf-footer-heading has-black-color"
             style={{ maxWidth: "37.5rem" }}
           >
-            Boost Your Business Up To High Level
+            Βελτίωσε την ζωή του κατοικίδιου σου!
           </div>
 
           <div className="ptf-footer-heading has-black-color">
-            Start by
+            Κάνε το πρώτο &nbsp;
             <Link
               className="has-accent-1 text-decoration-underline"
               to="/contact"
             >
-              Saying Hi!
-            </Link>
+              βήμα
+            </Link>&nbsp;!
           </div>
 
-          <p className="fz-24">90 Fairground Rd, FL 3290, United States</p>
+          <p className="fz-24">Αγ.Σάββα 2, 56533, Θεσσαλονίκη</p>
           <a className="fz-40 has-black-color" href="mailto:hello@moonex.co">
-            hello@moonex.co
+            info@dogphysio.gr
           </a>
         </div>
       </div>

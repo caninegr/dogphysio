@@ -3,54 +3,97 @@ import { Link } from "react-router-dom";
 
 const serviceContent = [
   {
-    icon: "lnil lnil-cup",
-    titlePart1: "aaaBRAND",
-    titlePart2: "CONSULTANT",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    icon: "lnil lnil-brain-alt",
+    titlePart1: "νευρολογικη",
+    titlePart2: "φυσικοθεραπεια",
+    descriptions: ` Μετεγχειρητική αποκατάσταση μετά 
+    από κατάγματα/εξαρθρήματα και παθήσεις 
+    μεσοσπονδύλιων δίσκων, ινοχόνδρινα έμβολα, 
+    τραυματισμό περιφερικών νεύρων, παράλυση, 
+    εκφυλιστική μυελοπάθεια, αταξία και αιθουσαίο 
+    σύνδρομο. Νευρολογικά σύνδρομα όπως πολυνευροπάθεια, 
+    πολυριζίτιδα, απονευρωτική μυοπάθεια κ.α.`,
   },
   {
-    icon: "lnil lnil-website-rank",
-    titlePart1: "UI/UX",
-    titlePart2: "SOLUTION",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    icon: "lnil lnil-broken-bone",
+    titlePart1: "ορθοπεδικη",
+    titlePart2: "φυσικοθεραπεια",
+    descriptions: `Μετεγχειρητική αποκατάσταση γόνατος (TTA, TPLO)
+    ,ισχίου (THR, TPO, FHO), πρόσθιου χιαστού συνδέσμου, 
+    κατάγματος, οστεοχόνδρωσης, δυσπλασία ισχίου/ αγκώνα, 
+    κακώσεις μυών (ψοίτες) και τενόντων.`,
   },
   {
-    icon: "lnil lnil-3d",
-    titlePart1: "PACKAGING",
+    icon: "lnil lnil-hourglass",
+    titlePart1: "γηριατρικη",
+    titlePart2: "φυσικοθεραπεια",
+    descriptions: `Διατήρηση/ βελτίωση μυικής μάζας και λειτουργικών 
+    δυνατοτήτων, βελτίωση ισορροπίας και 
+    ιδιοδεκτικότητας, βελτίωση φυσικής κατάστασης 
+    και αντοχής του ζώου.`,
+  },
+  {
+    icon: "lnil lnil-unlink",
+    titlePart1: "διαχειριση",
+    titlePart2: "οστεοαρθριτιδας",
+    descriptions: `Οι πιο πρόσφατες προοδευτικές απόψεις περιλαμβάνουν 
+    την ελάττωση του σωματικού βάρους, τις θεραπευτικές 
+    ασκήσεις, την ηλεκτροθεραπεία, το λέιζερ και το 
+    βελονισμό για την ρύθμιση του πόνου και της δυσφορίας.`,
+  },
+  {
+    icon: "lnil lnil-thunder-alt",
+    titlePart1: "διαχειριση",
+    titlePart2: "πονου",
+    descriptions: `Ο φυσικοθεραπευτής κατέχει έναν ιδιαίτερα σημαντικό 
+    ρόλο στη μείωση του πόνου, τη βελτίωση της ποιότητας ζωής, 
+    στην πρόληψη υποτροπών και επώδυνων καταστάσεων που μπορούν 
+    να αναπτυχθούν λόγω του πόνου. Επίσης η διαχείριση γίνεται 
+    με φυσικά μέσα οπότε δεν υπάρχουν οι παρενέργειες των φαρμάκων.`,
+  },
+  {
+    icon: "lnil lnil-first-aid",
+    titlePart1: "επουλωση",
+    titlePart2: "πληγων",
+    descriptions: `Το λέιζερ, ο θεραπευτικός υπέρηχος αλλά και ο βελονισμός 
+    μπορούν να βελτιώνουν την αιματική ροή και την 
+    αναδόμηση των κυττάρων με αποτέλεσμα την ταχύτερη επούλωση 
+    πληγών, τομών και έλκων κατάκλισης.`,
+  },
+  {
+    icon: "lnil lnil-drop",
+    titlePart1: "υδροθεραπεια",
     titlePart2: "",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
-  },
-  {
-    icon: "lnil lnil-video-camera-alt-1",
-    titlePart1: "MOTION VIDEO",
-    titlePart2: "& TVC",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
-  },
-  {
-    icon: "lnil lnil-website-rank",
-    titlePart1: "UI/UX",
-    titlePart2: "SOLUTION",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
-  },
-  {
-    icon: "lnil lnil-3d",
-    titlePart1: "PACKAGING",
-    titlePart2: "",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
-  },
-  {
-    icon: "lnil lnil-video-camera-alt-1",
-    titlePart1: "MOTION VIDEO",
-    titlePart2: "& TVC",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    descriptions: `Είτε στη θάλασσα είτε σε πισίνα, η υδροθεραπεία 
+    χρησιμοποιεί τις ιδιότητες του νερού με σκοπό να μπορέσει 
+    ένα σκυλί να κινηθεί ενάντια στη βαρύτητα. Ενδείκνυται 
+    σε πληθώρα περιστατικών για αποκατάσταση σε παραλύσεις, 
+    ορθοπεδικές επεμβάσεις, σε αρθρίτιδες αλλά και για τη 
+    βελτίωση της φυσικής κατάστασης του ζώου.`,
   },  
+  {
+    icon: "lnil lnil-dumbbell",
+    titlePart1: "prehab",
+    titlePart2: "προληπτικη φυσικοθεραπεια",
+    descriptions: `Αυτό το πρόγραμμα απευθύνεται σε σκυλάκια που 
+    δεν έχουν (ακόμα) την ανάγκη ενός εντατικού 
+    προγράμματος φυσικοθεραπείας αλλά θέλουν να είναι 
+    καλά προετοιμασμένα για μια επικείμενη χειρουργική 
+    επέμβαση, να έχουν δυνατούς μύες και συνδέσμους, 
+    καλό καρδιαναπνευστικό σύστημα και ιδανικό 
+    σωματικό βάρος.`,
+  },  
+  {
+    icon: "lnil lnil-page-break",
+    titlePart1: "δυσπλασια",
+    titlePart2: "ισχιων",
+    descriptions: `Πρόγραμμα 6 εβδομάδων. Αυτό το πρόγραμμα απευθύνεται 
+    σε σκυλάκια διαγνωσμένα με δυσπλασία ισχίων ηλικίας 2 ετών 
+    και άνω. Στις 6 εβδομάδες θα έχετε αποκτήσει 
+      γνώσεις και τεχνικές που θα σας βοηθήσουν στη διαχείρηση 
+      της δυσπλασίας του σκύλου σας. Το πρόγραμμα αυτό δεν 
+      απευθύνεται σε σκυλάκια που έχουν ήδη αρθρίτιδα.`,
+  },      
 ];
 
 const ServiceOne = () => {
@@ -65,10 +108,7 @@ const ServiceOne = () => {
         >
           {/* <!--Services Box--> */}
           <div className="ptf-service-box">
-            <Link
-              to="/service-details"
-              className="ptf-service-box__link"
-            ></Link>
+
             <div className="ptf-service-box__icon">
               <i className={val.icon}></i>
             </div>
@@ -80,7 +120,7 @@ const ServiceOne = () => {
               <p>{val.descriptions}</p>
             </div>
             <div className="ptf-service-box__arrow">
-              <i className="lnil lnil-chevron-right"></i>
+              <i className="lnil lnil-chevron-left"></i>
             </div>
           </div>
         </div>

@@ -269,7 +269,7 @@ const HomeFreelancer = () => {
                   data-aos-delay="0"
                 >
                   <h2 className="h1 has-secondary-font fw-normal text-center">
-                    My Latest Projects
+                    Παθήσεις & Περιστατικά
                   </h2>
                 </div>
                 {/* <!--Spacer--> */}

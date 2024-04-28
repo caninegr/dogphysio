@@ -5,18 +5,18 @@ const caseStudyContent = [
     caseContent: [
       {
         dealyAnimation: "100",
-        title: "CLIENT",
-        subTitle1: `Paul Themes Company,
+        title: "ΣΚΥΛΟΣ",
+        subTitle1: `Justin,
                 `,
-        subTitle2: "Russia",
+        subTitle2: "2 ετών, pitbull mix",
         subTitle3: "",
       },
       {
         dealyAnimation: "200",
-        title: "SERVICES",
-        subTitle1: `UI/UX, Back-End,`,
-        subTitle2: "Front-End, Graphic Design,",
-        subTitle3: "Animation",
+        title: "ΠΛΑΝΟ ΘΕΡΑΠΕΙΑΣ",
+        subTitle1: `Υδροθεραπεία,`,
+        subTitle2: "Θεραπευτική Άσκηση,",
+        subTitle3: "Laser",
       },
     ],
   },
@@ -24,16 +24,16 @@ const caseStudyContent = [
     caseContent: [
       {
         dealyAnimation: "300",
-        title: "TEAM",
-        subTitle1: `LoganCee - UI/UX Designer
+        title: "ΣΤΟΧΟΙ",
+        subTitle1: `Αδυνάτισμα
                 `,
-        subTitle2: "Pavel Suslov - Developer",
-        subTitle3: "",
+        subTitle2: "Ενδυνάμωση",
+        subTitle3: "Εκπαίδευση",
       },
       {
         dealyAnimation: "400",
-        title: "DATE",
-        subTitle1: `Feburary 25th, 2022`,
+        title: "ΗΜΕΡΟΜΗΝΙΑ",
+        subTitle1: `Αύγουστος, 2023`,
         subTitle2: "",
         subTitle3: "",
       },

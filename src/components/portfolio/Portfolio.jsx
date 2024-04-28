@@ -25,8 +25,8 @@ const portfolioContent = [
   },
   {
     img: "work-5",
-    categorie: "UI/UX",
-    title: "Liarch Architecture Firm",
+    categorie: "Justin",
+    title: "Δυσπλασία Ισχίων",
   },
 ];
 
