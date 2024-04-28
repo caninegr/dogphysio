@@ -9,7 +9,7 @@ const Faq = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Faq</title>
+        <title>Συχνές Ερωτήσεις</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -33,16 +33,15 @@ const Faq = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">FAQs</h1>
+                    <h1 className="large-heading">Συχνές Ερωτήσεις</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-18">
-                      Here are the frequently asked questions that we have
-                      compiled to help you find the answers to the problems you
-                      are wondering.
+                      Απαντήσεις στις πιο συχνές απορίες για τα 
+                      θέματα που σας απασχολούν περισσότερο.
                     </p>
                   </div>
                 </div>

@@ -3,64 +3,94 @@ import { Link } from "react-router-dom";
 
 const faqContent = [
   {
-    title: "Progress",
+    title: "Τα πρώτα βήματα",
     faqInner: [
       {
-        title: "How about our progress?",
-        descriptions: `Ex Portland Pitchfork irure mustache. Eutra fap before they sold out literally. Aliquip ugh bicycle rights actually mlkshk, seitan squid craft beer tempor.`,
+        title: "Χρειάζεται ο σκύλος μου φυσικοθεραπεία;",
+        descriptions: `Όπως ο άνθρωπος, έτσι και τα κατοικίδια μπορούν να επωφεληθούν από προγράμματα φυσικοθεραπείας. Επικοινώνησε μαζί μας με τη διάγνωση του κτηνιάτρου σου για να σε καθοδηγήσουμε.`,
       },
       {
-        title: "Do you provide a NDA Agreement?",
+        title: "Πότε μπορώ να έρθω;",
         descriptions: `
-        Hoodie tote bag mixtape tofu. Typewriter jean shorts wolf quinoa, messenger bag organic freegan cray.`,
+        Δουλεύουμε μόνο κατόπιν ραντεβού από Δευτέρα έως Παρασκευή. Επικοινωνήστε μαζί μας για διαθεσιμότητα.`,
       },
       {
-        title: "How many revisions times that I get?",
+        title: "Πως θα έρθω;",
         descriptions: `
-        Swag slow-carb quinoa VHS typewriter pork belly brunch, paleo single-origin coffee Wes Anderson. Flexitarian Pitchfork forage, literally paleo fap pour-over. Wes Anderson Pinterest YOLO fanny pack meggings, deep v XOXO chambray sustainable slow-carb raw denim church-key fap chillwave Etsy. +1 typewriter kitsch, American Apparel tofu Banksy Vice.`,
+        Βρισκόμαστε επι της οδού Αγίου Σάββα 2 στην Πολίχνη ακριβώς δίπλα στην Νεάπολη. Είναι ένα δρομάκι διπλής κατεύθυνσης πολύ κοντά στο παλιό πολυκλαδικό λύκειο, περιοχή Στρεμπενιώτη.`,
+      },
+      {
+        title: "Ο σκύλος μου δεν περπατάει, που μπορώ να παρκάρω;",
+        descriptions: `
+        Ακριβώς δίπλα στο φυσικοθεραπευτήριο υπάρχει χώρος στον οποίο μπορείτε να σταθμεύσετε για να αποβιβάσετε το κατοικίδιο σας.`,
+      },      
+      {
+        title: "Πότε πρέπει να ξεκινήσουμε τις φυσικοθεραπείες μετά το χειρουργείο;",
+        descriptions: `
+        Θα μου άρεσε πάρα πολύ αν η χειρουργική σας επέμβαση είναι προγραμματισμένη, να κάναμε μια ή δυο συνεδρίες πριν την επέμβαση έτσι ώστε να είστε κατάλληλα προετοιμασμένοι. Σε κάθε άλλη περίπτωση, ο κτηνίατρος σας θα μας δώσει το πράσινο φως για να ξεκινήσουμε (αυτό στις περισσότερες περιπτώσεις σημαίνει μετά την αφαίρεση των ραμμάτων περίπου στις 10 ημέρες).`,
+      },      
+      {
+        title: "Τι πρέπει να φέρω στο πρώτο ραντεβού;",
+        descriptions: `
+        Στο πρώτο ραντεβού αξιολόγησης παίρνουμε ένα σύντομο ιστορικό από εσάς, εκτιμούμε την κινητική κατάσταση του ζώου σας και ορίζουμε ένα πρώτο πλάνο θεραπείας. Χρειαζόμαστε  τη διάγνωση του κτηνιάτρου σας με τις ακτινογραφίες (αν υπάρχουν),  μια μικρή πετσέτα και τα αγαπημένα του μεζεδάκια. Παρακαλώ πολύ να είναι νηστικό προ 6ωρου και να έχει κάνει τις ανάγκες του.`,
+      },        
+
+    ],
+  },
+  {
+    title: "Προετοιμασία",
+    faqInner: [
+      {
+        title: "Πόσο συχνά πρέπει να έρχομαι;",
+        descriptions: `Η συχνότητα των συνεδριών εξαρτάται από την πάθηση του κατοικίδιού σας. Συνήθως βρισκόμαστε 2 με 3 φορές την εβδομάδα στο φυσικοθεραπευτήριο και εσείς ακολουθείτε καθημερινά τις ασκήσεις που σας παραδίδουμε για το σπίτι.`,
+      },
+      {
+        title: "Πότε θα γίνει καλά; Πόσος χρόνος θα χρειαστεί;",
+        descriptions: `
+        Ο κάθε οργανισμός είναι μοναδικός και ανταποκρίνεται διαφορετικά στα ερεθίσματα που του δίνουμε. Όσο και να θέλω να μπορώ να απαντήσω σε αυτή την ερώτηση, η αλήθεια είναι οτι δεν γνωρίζω και αυτό εξαρτάται από το κατοικίδιό σας.`,
+      },
+      {
+        title: "Πόσο κοστίζει; Πως μπορώ να πληρώσω;",
+        descriptions: `Το κόστος των συνεδριών υπολογίζεται μετά την πρώτη αξιολόγηση του κατοικίδιου σας η οποία διαρκεί 30 λεπτά και παρέχεται δωρεάν. Μπορείτε να πληρώσετε με μετρητά, κάρτα ή τραπεζική κατάθεση.`,
+      },    
+    ],
+  },
+  {
+    title: "Δυσκολίες",
+    faqInner: [
+      {
+        title: "Μπορείτε να έρθετε στο σπίτι μου;",
+        descriptions: `Έχουμε δημιουργήσει ένα πλήρες εξοπλισμένο φυσικοθεραπευτήριο εξειδικευμένο για κατοικίδια. Οι συνεδρίες κατ'οίκον δεν είναι η λύση που επιλέγουμε για να δουλέψουμε τα περιστατικά μας.`,
+      },
+      {
+        title: "Δεν έχω μεταφορικό μέσο. Πως θα το φέρω;",
+        descriptions: `Μπορούμε να παρέχουμε μεταφορά του κατοικιδίου σας πόρτα/πόρτα σε συγκεκριμμένες μέρες. Κατόπιν διακανονισμού & συνεννόησης.`,
+      },
+      {
+        title: "Ποια σκυλιά δεν δέχεστε για φυσικοθεραπεία;",
+        descriptions: `
+        Επιθετικά σκυλιά προς ανθρώπους. Σκυλιά ή γάτες που δεν έχουν κηδεμόνα ή κάποιον να τα φροντίζει καθημερινά δεν μπορούν να επωφεληθούν από τη φυσικοθεραπεία. Για να λειτουργήσει και να έχει αποτέλεσμα ένα πρόγραμμα θα πρέπει να υπάρχει κάποιος που να μπορεί να ασχοληθεί τουλάχιστον 3 φορές την ημέρα με το ζωάκι.`,
       },
     ],
   },
   {
-    title: "Payment",
+    title: "Υδροθεραπείες",
     faqInner: [
       {
-        title: "What payment methods are accepted?",
-        descriptions: `Fashion axe DIY jean shorts, swag kale chips meh polaroid kogi butcher Wes Anderson chambray next level semiotics gentrify yr. Voluptate photo booth fugiat Vice. Austin sed Williamsburg, ea labore raw denim voluptate cred proident mixtape excepteur mustache.`,
+        title: "Που βρίσκεται η πισίνα;",
+        descriptions: `Στο Cane Sentio, στον Δρυμό, 17χλμ έξω από τη Θεσσαλονίκη έχουμε στη διάθεση μας 2 πισίνες εξωτερικού χώρου.`,
       },
       {
-        title: "Can I have to deposit?",
+        title: "Πότε μπορώ να έρθω στην πισίνα;",
+        descriptions: `Η πισίνα μας είναι εξωτερικού χώρου και είναι διαθέσιμη για ραντεβού από περίπου 15 Μαίου έως 15 Οκτωβρίου, αναλόγως των καιρικών συνθηκών.`,
+      },
+      {
+        title: "Ποιά σκυλιά δεν μπορούν να μπουν στην πισίνα;",
         descriptions: `
-        Art party authentic freegan semiotics jean shorts chia cred. Neutra Austin roof party Brooklyn, synth Thundercats swag 8-bit photo booth. Plaid letterpress leggings craft beer meh ethical Pinterest.`,
+        Επιθετικά σκυλιά με ανθρώπους. Σκυλια που έχουν χειρουργηθεί πρόσφατα, θα πρέπει να περιμένουμε να απορροφηθούν τα ράμματα. Σκυλιά που μένουν μόνιμα σε αυλές ή είναι αδέσποτα. Σκυλιά που δεν έχουν έλεγχο της ούρησης και αφόδευσης. `,
       },
     ],
-  },
-  {
-    title: "Support",
-    faqInner: [
-      {
-        title: "How about Hosting & Domain, Its included in your service?",
-        descriptions: `Keytar cray slow-carb, Godard banh mi salvia pour-over. Slow-carb Odd Future seitan normcore. Master cleanse American Apparel gentrify flexitarian beard slow-carb next level. Raw denim polaroid paleo farm-to-table, put a bird on it lo-fi tattooed Wes Anderson Pinterest letterpress. Fingerstache McSweeney’s pour-over.`,
-      },
-      {
-        title: "How can I cancel or change my project?",
-        descriptions: `Plaid letterpress leggings craft beer meh ethical Pinterest. Art party authentic freegan semiotics jean shorts chia cred. Neutra Austin roof party Brooklyn.`,
-      },
-      {
-        title: "How long for support service?",
-        descriptions: `
-        Art party authentic freegan semiotics jean shorts chia cred. Neutra Austin roof party Brooklyn, synth Thundercats swag 8-bit photo booth. Plaid letterpress leggings craft beer meh ethical Pinterest.`,
-      },
-      {
-        title: "What’s files that I will got?",
-        descriptions: `Plaid letterpress leggings craft beer meh ethical Pinterest. Art party authentic freegan semiotics jean shorts chia cred. Neutra Austin roof party Brooklyn.`,
-      },
-      {
-        title: "How long for support service?",
-        descriptions: `Keytar cray slow-carb, Godard banh mi salvia pour-over. Slow-carb Odd Future seitan normcore. Master cleanse American Apparel gentrify flexitarian beard slow-carb next level. Raw denim polaroid paleo farm-to-table, put a bird on it lo-fi tattooed Wes Anderson Pinterest letterpress. Fingerstache McSweeney’s pour-over.`,
-      },
-    ],
-  },
+  },  
 ];
 
 const FaqTwo = () => {
@@ -104,14 +134,14 @@ const FaqTwo = () => {
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade">
           <p className="fz-24">
-            Don’t find your question?{" "}
+            Έχεις και άλλες ερωτήσεις;{" "}
             <Link
               className="has-accent-4 text-decoration-underline"
               to="/contact"
             >
-              Contact us{" "}
+              Επικοινώνησε μαζί μας
             </Link>
-            now, we alway willing to help you.
+            {" "}και θα σε βοηθήσουμε.
           </p>
         </div>
       </div>
