@@ -6,16 +6,16 @@ const resumeContent = [
     delayAnimation: "",
     infoContent: [
       {
-        title: "τμήμα Φυσικοθεραπείας",
+        title: "Τμήμα Φυσικοθεραπείας",
         subTitle: "Διεθνές Πανεπιστήμιο Ελλάδος",
       },
       {
-        title: "εθελοντική εργασία",
-        subTitle: "φιλοζωικές οργανώσεις",
+        title: "Εθελοντική Εργασία",
+        subTitle: "Φιλοζωικές οργανώσεις",
       },
       {
-        title: "πρακτική άσκηση",
-        subTitle: "κλινική Mühlengrund, Reinhardshausen, Γερμανία",
+        title: "Πρακτική άσκηση",
+        subTitle: "Κλινική Mühlengrund, Reinhardshausen, Γερμανία",
       },      
     ],
   },
@@ -24,20 +24,20 @@ const resumeContent = [
     delayAnimation: "",
     infoContent: [
       {
-        title: "πλήρης εργασία",
-        subTitle: "κτηνιατρικό κέντρο Fachtierarzt Leonding, Αυστρία",
+        title: "Πλήρης Εργασία",
+        subTitle: "Κτηνιατρικό κέντρο Fachtierarzt Leonding, Αυστρία",
       },
       {
         title: "Canine Rehabilitation",
         subTitle: "University of Tennessee, USA",
       },
       {
-        title: "πιστοποίηση CCRP",
+        title: "Πιστοποίηση CCRP",
         subTitle: "University of Tennessee, USA",
       },
       {
-        title: "παροχή φυσικοθεραπειών",
-        subTitle: "σε κτηνιατρικό κέντρο, Θεσσαλονίκη",
+        title: "Παροχή φυσικοθεραπειών",
+        subTitle: "σε Κτηνιατρικό κέντρο, Θεσσαλονίκη",
       },
     ],
   },
@@ -46,19 +46,19 @@ const resumeContent = [
     delayAnimation: "",
     infoContent: [
       {
-        title: "παραδοσιακός και βιοϊατρικός βελονισμός",
+        title: "Παραδοσιακός και Βιοϊατρικός Βελονισμός",
         subTitle: "ΕΦΕΑ & ΠΑΔΑ",
       },
       {
-        title: "δημιουργία ιδιωτικού χώρου",
-        subTitle: "αποκλειστικά για φυσικοθεραπεία",
+        title: "Δημιουργία Ιδιωτικού Χώρου",
+        subTitle: "Αποκλειστικά για φυσικοθεραπεία",
       },
       {
-        title: "παροχή υδροθεραπειών",
-        subTitle: "σε συνεργασία με Cane Sentio",
+        title: "Παροχή Υδροθεραπειών",
+        subTitle: "σε Συνεργασία με Cane Sentio",
       },
       {
-        title: "δημιουργία του project",
+        title: "Δημιουργία του Project",
         subTitle: "The Truth about Dogs",
       },
     ],
