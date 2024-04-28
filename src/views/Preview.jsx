@@ -20,7 +20,7 @@ const Preview = () => {
             className="ptf-page ptf-page--intro"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "assets/img/root/intro/bubble-1.png"
+                process.env.PUBLIC_URL + "/assets/img/root/intro/bubble-1.png"
               })`,
             }}
           >
@@ -276,7 +276,7 @@ const Preview = () => {
         className="ptf-footer ptf-footer--landing"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "assets/img/root/intro/bubble-3.png"
+            process.env.PUBLIC_URL + "/assets/img/root/intro/bubble-3.png"
           })`,
         }}
       >

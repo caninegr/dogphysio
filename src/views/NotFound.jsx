@@ -34,7 +34,7 @@ const NotFound = () => {
                     data-aos-delay="300"
                   >
                     <img
-                      src="assets/img/root/404-robot.png"
+                      src="/assets/img/root/404-robot.png"
                       alt="robot"
                       loading="lazy"
                     />

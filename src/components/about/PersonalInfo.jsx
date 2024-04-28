@@ -37,7 +37,7 @@ const PersonalInfo = () => {
           Θεσσαλονίκη, Ελλάδα <br />
           <a href="mailto:hello@brunoerdison.com">info@dogphysio.gr</a>
           <br />
-          <a href="tel:+6835688986">+30 6938198989</a>
+          <a href="tel:+6835688986">+30 6938 198989</a>
         </p>
       </div>
       {/* End .ptf-animated-block */}

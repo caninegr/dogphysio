@@ -13,7 +13,7 @@ import Portfolio from "../../components/portfolio/Portfolio";
 import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
 
-const avatar = "assets/img/about-me-main-image.jpg";
+const avatar = "/assets/img/about-me-main-image.jpg";
 
 const HomeFreelancer = () => {
   return (
@@ -73,13 +73,13 @@ const HomeFreelancer = () => {
                         {/* <!--Mask Image--> */}
                         <div className="ptf-mask-image">
                           <img
-                            src="assets/img/root/about-me/about-me-main-image-layer-2.png"
+                            src="/assets/img/root/about-me/about-me-main-image-layer-2.png"
                             alt="layer"
                             loading="lazy"
                             style={{ zIndex: "2" }}
                           />
                           <img
-                            src="assets/img/root/about-me/about-me-main-image-mask.png"
+                            src="/assets/img/root/about-me/about-me-main-image-mask.png"
                             alt="layer"
                             loading="lazy"
                             className="lay"
@@ -91,7 +91,7 @@ const HomeFreelancer = () => {
                           {/* End about main image for profile */}
 
                           <img
-                            src="assets/img/root/about-me/about-me-main-image-layer-1.png"
+                            src="/assets/img/root/about-me/about-me-main-image-layer-1.png"
                             alt="layer"
                             loading="lazy"
                           />

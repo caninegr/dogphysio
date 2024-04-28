@@ -64,7 +64,7 @@ const TestimonialTwo = () => {
               <div className="ptf-twitter-review__header">
                 <div className="ptf-twitter-review__avatar">
                   <img
-                    src={`assets/img/root/${val.avatar}.png`}
+                    src={`/assets/img/root/${val.avatar}.png`}
                     alt="avatar"
                     loading="lazy"
                   />

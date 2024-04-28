@@ -62,7 +62,7 @@ const Team = () => {
               <a href="#">
                 {" "}
                 <img
-                  src={`assets/img/root/team/${val.img}.png`}
+                  src={`/assets/img/root/team/${val.img}.png`}
                   alt={val.title}
                   loading="lazy"
                 />

@@ -1,6 +1,6 @@
 import React from "react";
+import { Link, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import BlogSidebarPost from "../../../components/blog/blog-sidebar/BlogSidebarPost";
 import BlogComment from "../../../components/blog/BlogComment";
 import BlogCommentForm from "../../../components/blog/BlogCommentForm";
 import BlogPostAuthor from "../../../components/blog/BlogPostAuthor";
@@ -10,33 +10,32 @@ import Footer from "../../../components/footer/Footer";
 import HeaderDefault from "../../../components/header/HeaderDefault";
 import ImageGridTwo from "../../../components/image-grid/ImageGridTwo";
 import SocialFour from "../../../components/social/SocialFour";
+import { blogContent } from "../../../data/blogs";
+import HeaderDefault2 from "../../../components/header/HeaderDefault2";
+const BlogDetails2 = () => {
+  let params = useParams();
 
-const BlogDetailsSidebar = () => {
+  const blog =
+    blogContent.filter((elm) => elm.id == params.id)[0] || blogContent[0];
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--single-post-sidebar">
+    <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
-        <title>Moonex - Bog Details Sidebar</title>
+        <title>Moonex - Bog Post Details</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <HeaderDefault2 />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">
           <article className="ptf-single-post">
             {/* <!--Post Header--> */}
-            <header className="ptf-single-post__header ptf-single-post__header--style-2">
+            <header className="ptf-single-post__header ptf-single-post__header--style-1">
               <div className="container-xxl">
-                <div className="row">
-                  <div className="col-xl-9">
-                    <h1 className="ptf-single-post__title">
-                      How to build photoshoots scene for product impress more
-                    </h1>
-                    <div className="ptf-single-post__meta">
-                      <span className="cat">Inspiration</span>
-                      <span className="date">Dec 7, 2021</span>
-                    </div>
-                  </div>
+                <h1 className="ptf-single-post__title">{blog.title}</h1>
+                <div className="ptf-single-post__meta">
+                  <span className="cat">Inspiration</span>
+                  <span className="date">Dec 7, 2021</span>
                 </div>
               </div>
             </header>
@@ -45,7 +44,11 @@ const BlogDetailsSidebar = () => {
             <div className="ptf-single-post__media">
               <div className="container-xxl">
                 <img
-                  src="/assets/img/blog/single-post/post-media-2.png"
+                  src={`/assets/img/blog/masonry/${blog.img}.png`}
+                  style={{
+                    maxHeight: "calc(100vh - 100px)",
+                    objectFit: "contain",
+                  }}
                   alt="blog post"
                   loading="lazy"
                 />
@@ -56,7 +59,7 @@ const BlogDetailsSidebar = () => {
             <div className="ptf-single-post__wrapper">
               <div className="container-xxl">
                 <div className="row">
-                  <div className="col-xl-8">
+                  <div className="col-xl-8 offset-xl-2">
                     {/* <!--Post Info--> */}
                     <div className="ptf-single-post__info">
                       <a className="author" href="#">
@@ -75,11 +78,7 @@ const BlogDetailsSidebar = () => {
 
                     {/* <!--Post Excerpt--> */}
                     <div className="ptf-single-post__excerpt">
-                      To mark the first UK show of artist Henri Barande, graphic
-                      designer{" "}
-                      <span className="has-accent-1">Pavel Murren</span> and
-                      German studio Schultzschultz have created The Lodge
-                      Wooden.
+                      {blog.description}
                     </div>
 
                     {/* <!--Post Content--> */}
@@ -258,20 +257,22 @@ const BlogDetailsSidebar = () => {
                         <BlogCommentForm />
                       </div>
                     </section>
-                  </div>
-                  {/* Blog Content  */}
 
-                  <div className="col-xl-4">
-                    <div className="ptf-sidebar ptf-sidebar--right">
-                      <BlogSidebarPost />
+                    {/* <!--Post Navigation--> */}
+                    <div className="ptf-post-navigation ptf-post-navigation--style-1">
+                      <span>Next Post</span>
+                      <Link
+                        className="h1 ptf-filled-link"
+                        to="/blog-details-sidebar"
+                      >
+                        Minimalist Trends
+                      </Link>
                     </div>
                   </div>
-                  {/* End sidebar */}
                 </div>
               </div>
             </div>
           </article>
-          {/* End .ptf-page */}
         </div>
       </div>
       {/* End .main */}
@@ -288,8 +289,7 @@ const BlogDetailsSidebar = () => {
         </div>
       </footer>
     </div>
-    // End .ptf-is--blog-grid
   );
 };
 
-export default BlogDetailsSidebar;
+export default BlogDetails2;

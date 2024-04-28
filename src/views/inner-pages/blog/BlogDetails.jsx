@@ -41,7 +41,7 @@ const BlogDetails = () => {
             <div className="ptf-single-post__media">
               <div className="container-xxl">
                 <img
-                  src="assets/img/blog/single-post/post-media-1.png"
+                  src="/assets/img/blog/single-post/post-media-1.png"
                   alt="blog post"
                   loading="lazy"
                 />
@@ -126,7 +126,7 @@ const BlogDetails = () => {
                         <div className="ptf-twitter-review__header">
                           <div className="ptf-twitter-review__avatar">
                             <img
-                              src="assets/img/root/twitter-avatar.png"
+                              src="/assets/img/root/twitter-avatar.png"
                               alt="avatar"
                               loading="lazy"
                             />
@@ -258,7 +258,10 @@ const BlogDetails = () => {
                     {/* <!--Post Navigation--> */}
                     <div className="ptf-post-navigation ptf-post-navigation--style-1">
                       <span>Next Post</span>
-                      <Link className="h1 ptf-filled-link" to="/blog-details-sidebar">
+                      <Link
+                        className="h1 ptf-filled-link"
+                        to="/blog-details-sidebar"
+                      >
                         Minimalist Trends
                       </Link>
                     </div>

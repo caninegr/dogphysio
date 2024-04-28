@@ -1,7 +1,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 
-const logo = "assets/img/root/logo-dark.png";
+const logo = "/assets/img/root/logo-dark.png";
 
 const CopyRight = () => {
   return (

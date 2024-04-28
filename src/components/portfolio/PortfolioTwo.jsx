@@ -82,7 +82,7 @@ const PortfolioTwo = () => {
             >
               <div className="poup-link">
                 <img
-                  src={`assets/img/portfolio/grid/${val.imgPopup}.png`}
+                  src={`/assets/img/portfolio/grid/${val.imgPopup}.png`}
                   alt="popup"
                 />
               </div>

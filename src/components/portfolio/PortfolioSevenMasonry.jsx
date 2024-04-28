@@ -110,7 +110,7 @@ const PortfolioSevenMasonry = () => {
                         to="/works-showcase"
                       ></Link>
                       <img
-                        src={`assets/img/portfolio/masonry/${singleItem.img}.png`}
+                        src={`/assets/img/portfolio/masonry/${singleItem.img}.png`}
                         alt=""
                         loading="lazy"
                       />

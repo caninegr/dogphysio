@@ -7,7 +7,7 @@ const BlogComment = () => {
         <div className="ptf-comment-item__inner">
           <a className="ptf-comment-avatar" href="#">
             <img
-              src="assets/img/root/comment-avatar-1.png"
+              src="/assets/img/root/comment-avatar-1.png"
               alt="comment author"
               loading="lazy"
             />
@@ -38,7 +38,7 @@ const BlogComment = () => {
             <div className="ptf-comment-item__inner">
               <a className="ptf-comment-avatar" href="#">
                 <img
-                  src="assets/img/root/comment-avatar-2.png"
+                  src="/assets/img/root/comment-avatar-2.png"
                   alt=""
                   loading="lazy"
                 />
@@ -72,7 +72,7 @@ const BlogComment = () => {
         <div className="ptf-comment-item__inner">
           <a className="ptf-comment-avatar" href="#">
             <img
-              src="assets/img/root/comment-avatar-3.png"
+              src="/assets/img/root/comment-avatar-3.png"
               alt=""
               loading="lazy"
             />

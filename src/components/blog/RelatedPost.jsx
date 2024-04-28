@@ -28,7 +28,7 @@ const RelatedPost = () => {
                 to="/blog-details-sidebar"
               ></Link>
               <img
-                src={`assets/img/blog/grid/${val.img}.png`}
+                src={`/assets/img/blog/grid/${val.img}.png`}
                 alt="blog"
                 loading="lazy"
               />

@@ -8,6 +8,7 @@ import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 import AnimatedCursor from "react-animated-cursor";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   useEffect(() => {
@@ -19,13 +20,27 @@ const App = () => {
     <>
       <Helmet>
         <title>Φυσικοθεραπεία σε κατοικίδια - Στέλλα Κεχαγιά</title>
-        <meta name="description" content="Φυσιοθεραπεία για σκύλους και γάτες, ενδυνάμωση και μεταχειρουργική αποκατάσταση" />
+        <meta
+          name="description"
+          content="Φυσιοθεραπεία για σκύλους και γάτες, ενδυνάμωση και μεταχειρουργική αποκατάσταση"
+        />
         <meta
           name="keywords"
           content="φυσικοθεραπεία, φυσιοθεραπεία, κατοικίδια, ζώα, σκύλος, γάτα, δυσπλασία, αρθρίτιδα, ορθοπεδικά"
         />
       </Helmet>
       {/* End React Helmet for SEO */}
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
 
       <AnimatedCursor
         innerSize={8}

@@ -41,7 +41,7 @@ const BrandThree = () => {
           key={i}
         >
           <img
-            src={`assets/img/root/clients/${val.icon}.png`}
+            src={`/assets/img/root/clients/${val.icon}.png`}
             alt="brand icon"
             loading="lazy"
           />

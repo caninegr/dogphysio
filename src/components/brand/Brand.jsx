@@ -66,7 +66,7 @@ const Brand = () => {
             >
               <div className="ptf-partner-box__image">
                 <img
-                  src={`assets/img/root/partners/${item.imgName}.png`}
+                  src={`/assets/img/root/partners/${item.imgName}.png`}
                   alt="Zeplin"
                   loading="lazy"
                 />

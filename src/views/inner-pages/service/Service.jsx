@@ -82,7 +82,7 @@ const Service = () => {
             className="has-accent-1-background"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
+                process.env.PUBLIC_URL + "/assets/img/root/service-bubble.png"
               })`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "100% calc(100% + 120px)",
@@ -124,7 +124,7 @@ const Service = () => {
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL +
-                "assets/img/services-call-to-action-background.png"
+                "/assets/img/services-call-to-action-background.png"
               })`,
             }}
           >

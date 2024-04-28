@@ -105,7 +105,7 @@ const PortfolioSix = () => {
                           to="/works-showcase"
                         ></Link>
                         <img
-                          src={`assets/img/home/modern/${singleItem.img}.png`}
+                          src={`/assets/img/home/modern/${singleItem.img}.png`}
                           alt=""
                           loading="lazy"
                         />

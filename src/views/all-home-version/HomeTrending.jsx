@@ -72,12 +72,12 @@ const HomeTrending = () => {
                       >
                         <img
                           className="spin"
-                          src="assets/img/root/home-trending/circle-text.png"
+                          src="/assets/img/root/home-trending/circle-text.png"
                           alt="circle text"
                           loading="lazy"
                         />
                         <img
-                          src="assets/img/root/home-trending/circle-logo.png"
+                          src="/assets/img/root/home-trending/circle-logo.png"
                           alt="circle logo"
                           loading="lazy"
                         />

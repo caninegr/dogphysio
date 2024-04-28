@@ -112,17 +112,17 @@ const AboutUs = () => {
                         {/* <!--Mask Image--> */}
                         <div className="ptf-mask-image">
                           <img
-                            src="assets/img/root/about-us/about-us-main-image-mask.png"
+                            src="/assets/img/root/about-us/about-us-main-image-mask.png"
                             alt="layer"
                             loading="lazy"
                             className="lay2"
                             style={{
                               zIndex: "1",
                             }}
-                            srcSet="assets/img/about-us-main-image.jpg"
+                            srcSet="/assets/img/about-us-main-image.jpg"
                           />
                           <img
-                            src="assets/img/root/about-us/about-us-main-image-layer-1.png"
+                            src="/assets/img/root/about-us/about-us-main-image-layer-1.png"
                             alt="layer"
                             loading="lazy"
                             style={{ zIndex: "2" }}
@@ -271,7 +271,7 @@ const AboutUs = () => {
               style={{
                 backgroundImage: `url(${
                   process.env.PUBLIC_URL +
-                  "assets/img/about-us-testimonial-background.png"
+                  "/assets/img/about-us-testimonial-background.png"
                 })`,
               }}
             >
@@ -290,7 +290,7 @@ const AboutUs = () => {
                       data-aos-delay="0"
                     >
                       <img
-                        src="assets/img/root/quote.png"
+                        src="/assets/img/root/quote.png"
                         alt=""
                         loading="lazy"
                       />

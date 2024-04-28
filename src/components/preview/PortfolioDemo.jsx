@@ -72,7 +72,7 @@ const PortfolioDemo = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={`assets/img/root/intro/${demo.demoImg}.png`}
+                    src={`/assets/img/root/intro/${demo.demoImg}.png`}
                     alt={demo.title}
                     loading="lazy"
                   />

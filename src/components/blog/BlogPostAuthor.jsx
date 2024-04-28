@@ -6,7 +6,7 @@ const BlogPostAuthor = () => {
     <div className="ptf-about-author">
       <div className="ptf-about-author__avatar">
         <img
-          src="assets/img/root/author-avatar.png"
+          src="/assets/img/root/author-avatar.png"
           alt="author"
           loading="lazy"
         />

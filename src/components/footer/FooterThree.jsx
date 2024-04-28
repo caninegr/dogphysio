@@ -8,7 +8,7 @@ const FooterThree = () => {
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <a href="index.html">
-            <img src="assets/img/root/logo-dark.png" alt="" loading="lazy" />
+            <img src="/assets/img/root/logo-dark.png" alt="" loading="lazy" />
           </a>
         </div>
       </div>

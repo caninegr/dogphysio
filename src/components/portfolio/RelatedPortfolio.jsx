@@ -29,7 +29,7 @@ const RelatedPortfolio = () => {
               <div className="ptf-work__media">
                 <Link className="ptf-work__link" to="/works-showcase"></Link>
                 <img
-                  src={`assets/img/portfolio/${val.img}.png`}
+                  src={`/assets/img/portfolio/${val.img}.png`}
                   alt="portfolio"
                   loading="lazy"
                 />

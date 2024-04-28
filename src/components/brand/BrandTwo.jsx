@@ -33,7 +33,7 @@ const BrandTwo = () => {
           key={i}
         >
           <img
-            src={`assets/img/root/clients/${val.icon}.png`}
+            src={`/assets/img/root/clients/${val.icon}.png`}
             alt="brand logo"
             loading="lazy"
           />

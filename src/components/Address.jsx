@@ -40,7 +40,7 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          <a href="tel:+306938198989">+30 6938 198989</a>
+          <a href="tel:+306938198989">+30 6938198989</a>
         </p>
       </div>
 

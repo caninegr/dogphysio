@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Search from "../form/Search";
-import DropdownMenu from "./menu/DropdownMenu";
-import MobileMenu from "./menu/MobileMenu";
 
-const HeaderAgency = () => {
+import DropdownMenu2 from "./menu/DropdownMenu2";
+import MobileMenu2 from "./menu/MobileMenu2";
+
+const HeaderDefault2 = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -25,12 +26,12 @@ const HeaderAgency = () => {
 
   return (
     <>
-      <header className="ptf-header ptf-header--style-1">
+      <header className="ptf-header ptf-header--style-3 ptf-header--opaque">
         <div
           className={
             navbar
-              ? "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top ptf-navbar--fixed ptf-navbar--solid"
-              : "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top"
+              ? "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--fixed"
+              : "ptf-navbar ptf-navbar--main ptf-navbar--sticky"
           }
         >
           <div className="container-xxl">
@@ -53,7 +54,7 @@ const HeaderAgency = () => {
               {/* <!--Navigation--> */}
               <nav className="ptf-nav ptf-nav--default">
                 {/* <!--Menu--> */}
-                <DropdownMenu />
+                <DropdownMenu2 />
               </nav>
               {/* <!--Buttons--> */}
 
@@ -100,8 +101,7 @@ const HeaderAgency = () => {
             <a className="is-active" href="#">
               Eng
             </a>
-            <a href="#">Fra</a>
-            <a href="#">Ger</a>
+            <a href="#">Eng</a>
           </div>
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
@@ -112,11 +112,11 @@ const HeaderAgency = () => {
         </div>
         {/* End .ptf-offcanvas-menu__header */}
 
-        <MobileMenu />
+        <MobileMenu2 />
       </div>
       {/* End sidebar menu */}
     </>
   );
 };
 
-export default HeaderAgency;
+export default HeaderDefault2;

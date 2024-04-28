@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import BlogMasonryGrid from "../../../components/blog/BlogMasonryGrid";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
@@ -6,8 +6,10 @@ import Footer from "../../../components/footer/Footer";
 import SearchBlog from "../../../components/form/SearchBlog";
 import HeaderDefault from "../../../components/header/HeaderDefault";
 import NewsletterTwo from "../../../components/newsletter/NewsletterTwo";
+import HeaderDefault2 from "../../../components/header/HeaderDefault2";
 
 const BlogMasonry = () => {
+  const [searchQuery, setSearchQuery] = useState("");
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
@@ -15,7 +17,7 @@ const BlogMasonry = () => {
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <HeaderDefault2 />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">
@@ -48,7 +50,7 @@ const BlogMasonry = () => {
                       data-aos-delay="100"
                     >
                       <div className="ptf-widget ptf-widget-search">
-                        <SearchBlog />
+                        <SearchBlog setSearchQuery={setSearchQuery} />
                       </div>
                     </div>
                   </div>
@@ -81,7 +83,7 @@ const BlogMasonry = () => {
                 >
                   <div className="ptf-isotope-grid">
                     {" "}
-                    <BlogMasonryGrid />
+                    <BlogMasonryGrid searchQuery={searchQuery} />
                   </div>
                 </div>
                 {/* End .ptf-animated-block */}

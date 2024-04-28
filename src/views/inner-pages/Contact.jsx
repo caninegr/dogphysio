@@ -6,6 +6,7 @@ import Footer from "../../components/footer/Footer";
 import Social from "../../components/social/Social";
 import ContactForm from "../../components/ContactForm";
 import Address from "../../components/Address";
+import HeaderDefault2 from "../../components/header/HeaderDefault2";
 
 const Contact = () => {
   return (
@@ -15,7 +16,7 @@ const Contact = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -36,9 +37,7 @@ const Contact = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">
-                      Θες να σε βοηθήσω;
-                    </h1>
+                    <h1 className="large-heading">Θες να σε βοηθήσω;</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

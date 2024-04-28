@@ -8,14 +8,14 @@ const ImageGridFour = () => {
         {/* <!--Simple Image--> */}
         <div className="ptf-simple-image">
           <Item
-            original="assets/img/service-detail.png"
-            thumbnail="assets/img/service-detail.png"
+            original="/assets/img/service-detail.png"
+            thumbnail="/assets/img/service-detail.png"
             width={1520}
             height={760}
           >
             {({ ref, open }) => (
               <img
-                src="assets/img/service-detail.png"
+                src="/assets/img/service-detail.png"
                 alt="service"
                 role="button"
                 ref={ref}

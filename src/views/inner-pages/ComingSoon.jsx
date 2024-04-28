@@ -22,7 +22,7 @@ const ComingSoon = () => {
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL +
-                "assets/img/root/coming-soon-background.png"
+                "/assets/img/root/coming-soon-background.png"
               })`,
             }}
           >
@@ -97,7 +97,7 @@ const ComingSoon = () => {
                   >
                     <div className="text-center">
                       <img
-                        src="assets/img/root/coming-soon-logo.png"
+                        src="/assets/img/root/coming-soon-logo.png"
                         alt=""
                         style={{ maxWidth: "33.25rem" }}
                         loading="lazy"

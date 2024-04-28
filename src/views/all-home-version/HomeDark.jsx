@@ -387,7 +387,7 @@ const HomeDark = () => {
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL +
-                "assets/img/services-call-to-action-background.png"
+                "/assets/img/services-call-to-action-background.png"
               })`,
             }}
           >

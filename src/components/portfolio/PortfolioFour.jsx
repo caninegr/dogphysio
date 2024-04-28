@@ -303,7 +303,7 @@ const PortfolioFour = () => {
                       >
                         <div className="poup-link">
                           <img
-                            src={`assets/img/portfolio/${val.imgPopup}.png`}
+                            src={`/assets/img/portfolio/${val.imgPopup}.png`}
                             alt="popup"
                           />
                         </div>

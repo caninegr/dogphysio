@@ -25,7 +25,7 @@ const Skills = () => {
             <div className="ptf-skill-box__content">
               <div className="ptf-skill-box__image">
                 <img
-                  src={`assets/img/root/skills/${item.logo}.png`}
+                  src={`/assets/img/root/skills/${item.logo}.png`}
                   alt="HTML/CSS"
                   loading="lazy"
                 />

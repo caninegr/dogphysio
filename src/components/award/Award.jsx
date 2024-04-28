@@ -67,7 +67,7 @@ const Award = () => {
           <div className="ptf-rewards-item__date">{val.date}</div>
           <div className="ptf-rewards-item__logo">
             <img
-              src={`assets/img/root/rewards/${val.img}.png`}
+              src={`/assets/img/root/rewards/${val.img}.png`}
               alt="brand"
               loading="lazy"
             />

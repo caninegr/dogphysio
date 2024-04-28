@@ -67,7 +67,7 @@ const BlogThree = () => {
             <div className="ptf-post__media">
               <Link className="ptf-work__link" to="/blog-details"></Link>
               <img
-                src={`assets/img/blog/grid/${val.img}.png`}
+                src={`/assets/img/blog/grid/${val.img}.png`}
                 alt="blog"
                 loading="lazy"
               />

@@ -35,13 +35,13 @@ const HeaderDark = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="assets/img/root/logo-dark.png"
+                  src="/assets/img/root/logo-dark.png"
                   alt="brand"
                   loading="lazy"
                 />
                 <img
                   className="white"
-                  src="assets/img/root/logo-white.png"
+                  src="/assets/img/root/logo-white.png"
                   alt="brand"
                   loading="lazy"
                 />

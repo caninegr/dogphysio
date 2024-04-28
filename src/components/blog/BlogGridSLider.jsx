@@ -55,7 +55,7 @@ const BlogGridSLider = () => {
             <div className="ptf-news-slide" key={i}>
               <div className="ptf-news-slide__media">
                 <img
-                  src={`assets/img/blog/slider/${val.img}.png`}
+                  src={`/assets/img/blog/slider/${val.img}.png`}
                   alt=""
                   loading="lazy"
                 />

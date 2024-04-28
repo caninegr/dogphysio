@@ -44,7 +44,7 @@ const PortfolioThree = () => {
             <article className="ptf-work ptf-work--style-6">
               <div className="ptf-work__media">
                 <img
-                  src={`assets/img/home/studio/${val.img}.png`}
+                  src={`/assets/img/home/studio/${val.img}.png`}
                   alt={val.title}
                   loading="lazy"
                 />

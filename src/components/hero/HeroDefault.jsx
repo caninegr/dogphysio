@@ -139,12 +139,12 @@ const HeroDefault = () => {
           <div className="ptf-mask-image" style={{ maxWidth: "18.25rem" }}>
             <img
               className="spin"
-              src="assets/img/root/home-default/circle-text.png"
+              src="/assets/img/root/home-default/circle-text.png"
               alt=""
               loading="lazy"
             />
             <img
-              src="assets/img/root/home-default/circle-logo.png"
+              src="/assets/img/root/home-default/circle-logo.png"
               alt=""
               loading="lazy"
             />

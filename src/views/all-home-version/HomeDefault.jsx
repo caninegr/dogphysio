@@ -171,7 +171,7 @@ const HomeDefault = () => {
               className="has-accent-1-background"
               style={{
                 backgroundImage: `url(${
-                  process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
+                  process.env.PUBLIC_URL + "/assets/img/root/service-bubble.png"
                 })`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "100% calc(100% + 120px)",
@@ -269,7 +269,7 @@ const HomeDefault = () => {
               style={{
                 backgroundImage: `url(${
                   process.env.PUBLIC_URL +
-                  "assets/img/about-us-testimonial-background.png"
+                  "/assets/img/about-us-testimonial-background.png"
                 })`,
               }}
             >
@@ -288,7 +288,7 @@ const HomeDefault = () => {
                       data-aos-delay="0"
                     >
                       <img
-                        src="assets/img/root/quote.png"
+                        src="/assets/img/root/quote.png"
                         alt=""
                         loading="lazy"
                       />

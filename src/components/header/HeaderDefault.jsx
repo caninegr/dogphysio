@@ -39,13 +39,13 @@ const HeaderDefault = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="assets/img/root/logo-dark.png"
+                  src="/assets/img/root/logo-dark.png"
                   alt=""
                   loading="lazy"
                 />
                 <img
                   className="white"
-                  src="assets/img/root/logo-white.png"
+                  src="/assets/img/root/logo-white.png"
                   alt=""
                   loading="lazy"
                 />
@@ -58,23 +58,6 @@ const HeaderDefault = () => {
               {/* <!--Buttons--> */}
 
               {/* <!--Navbar Search--> */}
-              <div
-                className={
-                  click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
-                }
-              >
-                <div className="ptf-navbar-search__wrapper">
-                  <Search />
-                </div>
-
-                <div
-                  className="ptf-navbar-search__toggle"
-                  onClick={handleClick}
-                >
-                  <i className="lnir lnir-search-alt"></i>
-                  <i className="lnir lnir-close"></i>
-                </div>
-              </div>
               {/* <!--Offcanvas Menu Toggle--> */}
 
               <div

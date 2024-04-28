@@ -38,7 +38,7 @@ const Blog = () => {
             <article className="ptf-post ptf-post--style-4">
               <div className="ptf-post__media">
                 <img
-                  src={`assets/img/home/default/${val.img}.png`}
+                  src={`/assets/img/home/default/${val.img}.png`}
                   alt=""
                   loading="lazy"
                 />
