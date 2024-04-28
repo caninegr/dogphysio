@@ -15,6 +15,14 @@ const App = () => {
     AOS.init({
       duration: 1200,
     });
+
+    let scrollRef = 0;
+
+    window.addEventListener('scroll', function() {
+      // increase value up to 10, then refresh AOS
+      scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+    });
+        
   }, []);
   return (
     <>
