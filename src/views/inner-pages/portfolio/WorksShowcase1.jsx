@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import HeaderDefault2 from "../../../components/header/HeaderDefault2";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import Social from "../../../components/social/Social";
@@ -15,7 +15,7 @@ const WorksShowcase1 = () => {
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <HeaderDefault2 />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

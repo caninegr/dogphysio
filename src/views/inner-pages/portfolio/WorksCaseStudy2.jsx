@@ -8,7 +8,7 @@ const caseStudyContent = [
         title: "ΣΚΥΛΟΣ",
         subTitle1: `Freud,
                 `,
-        subTitle2: "4 ετών, maltese",
+        subTitle2: "8 ετών, westie mix",
         subTitle3: "",
       },
       {
