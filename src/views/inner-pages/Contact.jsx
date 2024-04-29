@@ -12,7 +12,7 @@ import HeaderDefault2 from "../../components/header/HeaderDefault2";
 
 const MyComponent = () => {
   useEffect(() => {
-    window.scrollTo(0, 230);    
+    window.scrollTo(0, 430);    
 })};
 
 
