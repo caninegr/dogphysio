@@ -59,7 +59,7 @@ const HeaderDefault2 = () => {
               {/* <!--Buttons--> */}
 
               {/* <!--Navbar Search--> */}
-              <div
+              {/* <div
                 className={
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
                 }
@@ -76,6 +76,8 @@ const HeaderDefault2 = () => {
                   <i className="lnir lnir-close"></i>
                 </div>
               </div>
+              */}
+              
               {/* <!--Offcanvas Menu Toggle--> */}
 
               <div

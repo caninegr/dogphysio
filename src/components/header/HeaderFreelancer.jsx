@@ -63,10 +63,9 @@ const HeaderFreelancer = () => {
         <div className="ptf-offcanvas-menu__header">
           <div className="ptf-language-switcher">
             <a className="is-active" href="#">
-              Eng
+              El
             </a>
-            <a href="#">Fra</a>
-            <a href="#">Ger</a>
+            <a href="#">En</a>
           </div>
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
