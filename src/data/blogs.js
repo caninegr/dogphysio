@@ -74,7 +74,7 @@ export const blogContent = [
   {
     id: 9,
     img: "post-9",
-    cat: "1Inspiration",
+    cat: "Inspiration",
     date: "Dec 15, 2021",
     title: "  How to build photoshoots scene for product impress more",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
