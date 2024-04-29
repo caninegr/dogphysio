@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import PersonalInfo from "../../components/about/PersonalInfo";
 import BrandFour from "../../components/brand/BrandFour";
@@ -14,11 +14,6 @@ import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
 
 const avatar = "/assets/img/about-me-main-image.jpg";
-
-const MyComponent = () => {
-  useEffect(() => {
-    window.scrollTo(220, 400);    
-})}
 
 const HomeFreelancer = () => {
   return (
