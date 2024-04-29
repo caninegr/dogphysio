@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Social from "../social/SocialTwo";
-import DropdownMenu from "./menu/DropdownMenu";
-import MobileMenu from "./menu/MobileMenu";
+import DropdownMenu2 from "./menu/DropdownMenu2";
+import MobileMenu2 from "./menu/MobileMenu2";
 
 const HeaderFreelancer = () => {
   const [click1, setClick1] = useState(false);
@@ -16,7 +16,7 @@ const HeaderFreelancer = () => {
               {/* <!--Navigation--> */}
               <nav className="ptf-nav ptf-nav--default">
                 {/* <!--Menu--> */}
-                <DropdownMenu />
+                <DropdownMenu2 />
               </nav>
               {/* <!--Buttons--> */}
               {/* <!--Offcanvas Menu Toggle--> */}
@@ -77,7 +77,7 @@ const HeaderFreelancer = () => {
         </div>
         {/* End .ptf-offcanvas-menu__header */}
 
-        <MobileMenu />
+        <MobileMenu2 />
       </div>
       {/* End sidebar menu */}
     </>

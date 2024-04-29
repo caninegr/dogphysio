@@ -29,7 +29,9 @@ import WorksGrid from "../views/inner-pages/portfolio/WorksGrid";
 import WorksMasonry from "../views/inner-pages/portfolio/WorksMasonry";
 import WorksListing from "../views/inner-pages/portfolio/WorksListing";
 import WorksCarousel from "../views/inner-pages/portfolio/WorksCarousel";
-import WorksShowcase from "../views/inner-pages/portfolio/WorksShowcase";
+import WorksShowcase1 from "../views/inner-pages/portfolio/WorksShowcase1";
+import WorksShowcase2 from "../views/inner-pages/portfolio/WorksShowcase2";
+import WorksShowcase3 from "../views/inner-pages/portfolio/WorksShowcase3";
 
 // Others
 import Contact from "../views/inner-pages/Contact";
@@ -79,7 +81,9 @@ const AllRoutes = () => {
         <Route path="/works-masonry" element={<WorksMasonry />} />
         <Route path="/works-listing" element={<WorksListing />} />
         <Route path="/works-carousel" element={<WorksCarousel />} />
-        <Route path="/works-showcase" element={<WorksShowcase />} />
+        <Route path="/works-showcase-1" element={<WorksShowcase1 />} />
+        <Route path="/works-showcase-2" element={<WorksShowcase2 />} />
+        <Route path="/works-showcase-3" element={<WorksShowcase3 />} />
 
         {/* others */}
         <Route path="/team" element={<Team />} />

@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const menuContent = [
   {
-    name: "Home",
+    name: "Αρχικη",
     activeClass: "sf-with-ul",
     menuClass: "two-columns current-menu-item",
     routerPath: "/",
   },
   {
-    name: "Services",
+    name: "Υπηρεσιες",
     activeClass: "",
     menuClass: "",
     dropDownItems: [
@@ -42,13 +42,7 @@ const menuContent = [
     routerPath: "/blog-masonry",
   },
   {
-    name: "Contact",
-    activeClass: "",
-    menuClass: "",
-    routerPath: "/contact",
-  },
-  {
-    name: "Gallery",
+    name: "Αλλα",
     activeClass: "",
     menuClass: "two-columns",
     dropDownItems: [

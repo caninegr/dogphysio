@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { showcaseContent } from "../../data/showcase";
 
 const portfolioContent = [
   {
-    img: "work-1",
+    img: "freud/work-1",
     categorie: "Freud",
     title: "Διάχυτο Νευρομυϊκό Νόσημα",
+    link: "/works-showcase-2",
   },
   {
     img: "work-2",
@@ -25,9 +25,10 @@ const portfolioContent = [
     title: "Swiss Style Poster",
   },
   {
-    img: "work-5",
+    img: "justin/work-1",
     categorie: "Justin",
     title: "Δυσπλασία Ισχίων",
+    link: "/works-showcase-1",
   },
 ];
 
@@ -69,9 +70,9 @@ const Portfolio = () => {
           {portfolioContent.map((item, i) => (
             <article className="ptf-work ptf-work--style-3" key={i}>
               <div className="ptf-work__media">
-                <Link to="/works-showcase" className="ptf-work__link"></Link>
+                <Link to={item.link} className="ptf-work__link"></Link>
                 <img
-                  src={`/assets/img/portfolio/${item.img}.png`}
+                  src={`/assets/img/portfolio/single-work/${item.img}.png`}
                   alt=""
                   loading="lazy"
                 />
@@ -79,7 +80,7 @@ const Portfolio = () => {
               <div className="ptf-work__meta">
                 <div className="ptf-work__category">{item.categorie}</div>
                 <h4 className="ptf-work__title">
-                  <Link to="/works-showcase">{item.title}</Link>
+                  <Link to={item.link}>{item.title}</Link>
                 </h4>
               </div>
             </article>

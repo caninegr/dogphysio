@@ -3,7 +3,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 
 const imageList = [
   {
-    img: "/assets/img/blog/single-post/content-image-1.png",
+    img: "/assets/img/blog/single-post/justin/content-image-1.png",
     delayAnimation: "0",
     imageOwner: "@element5digital",
     link: "https://element5digital.com/",
