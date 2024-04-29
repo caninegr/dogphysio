@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import { showcaseContent } from "../../data/showcase";
 
 const portfolioContent = [
   {
     img: "work-1",
-    categorie: "UI/UX",
-    title: "Taskly Dashboard",
+    categorie: "Freud",
+    title: "Διάχυτο Νευρομυϊκό Νόσημα",
   },
   {
     img: "work-2",

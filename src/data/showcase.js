@@ -1,12 +1,20 @@
 export const blogContent = [
   {
     id: 1,
-    img: "post-1",
-    cat: "Product",
+    img_front: "post-1",
+    petname: "Product",
     date: "Dec 15, 2021",
     title: "Review product BWIB",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Nullam dignissim tortor vitae mattis tempor...`,
+    pettype: "Σκύλος",
+    petage: "3 ετών",
+    petrace: "Μαλινουά",
+    objectives: "Αδυνάτισμα",
+    plan: "Υδροθεραπεία",
+    therapy: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nullam dignissim tortor vitae mattis tempor...`,
+    result: "...",
+    img1: "",
+    img2: ""
   },
   {
     id: 2,
@@ -74,7 +82,7 @@ export const blogContent = [
   {
     id: 9,
     img: "post-9",
-    cat: "1Inspiration",
+    cat: "Inspiration",
     date: "Dec 15, 2021",
     title: "  How to build photoshoots scene for product impress more",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.

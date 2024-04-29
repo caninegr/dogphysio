@@ -6,7 +6,7 @@ const ContactJarallax = () => {
     <div className="container-xxl text-center">
       <div className="d-inline-flex text-start">
         {/* <!--Animated Block--> */}
-        <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0" data-aos-once="false">
+        <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <div className="fz-36 has-accent-1">Ελάτε να γνωριστούμε</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
