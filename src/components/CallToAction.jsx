@@ -13,7 +13,7 @@ const CallToAction = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.5625rem" }}></div>
         <div className="fz-100 fz-90--md has-black-color fw-normal lh-0p8 has-secondary-font">
-          <Link className="ptf-filled-link" to="/contact">
+          <Link className="ptf-filled-link" to="/contact/#">
             Call <br />
             Stella
           </Link>
