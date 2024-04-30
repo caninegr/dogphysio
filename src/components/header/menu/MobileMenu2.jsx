@@ -144,16 +144,16 @@ const MobileMenu2 = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
+          @{new Date().getFullYear()} <span>DogPhysio</span>. All Rights Reserved.{" "}
           <br />
           Development by{" "}
           <span>
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://cane.gr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              ib-themes
+              cane sentio
             </a>
           </span>
           .

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../components/header/HeaderDefault";
+import HeaderDefault2 from "../components/header/HeaderDefault2";
 import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
 
@@ -9,11 +9,11 @@ const NotFound = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - 404 Page</title>
+        <title>DogPhysio - 404 Page</title>
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -56,8 +56,8 @@ const NotFound = () => {
                     data-aos-delay="0"
                   >
                     <h1 className="large-heading">
-                      Opps...! <br />
-                      Page not found
+                      Woof...meow! <br />
+                      Η σελίδα δεν βρέθηκε
                     </h1>
                   </div>
                   {/* <!--Spacer--> */}
@@ -71,7 +71,7 @@ const NotFound = () => {
                     data-aos="fade"
                     data-aos-delay="100"
                   >
-                    <p>You seem can’t to find the page you’re looking for.</p>
+                    <p>Αν θες μεζεδάκι πρέπει να ψάξεις ξανά!</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -84,7 +84,7 @@ const NotFound = () => {
                     data-aos="fade"
                     data-aos-delay="200"
                   >
-                    <Link to="/">Back to Home</Link>
+                    <Link to="/">Επιστροφη στην Αρχικη</Link>
                   </div>
                 </div>
               </div>

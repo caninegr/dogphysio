@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import CountDown from "../../components/CountDown";
 import HeaderComingSoon from "../../components/header/HeaderComingSoon";
-import Newsletter from "../../components/Newsletter";
+//import Newsletter from "../../components/Newsletter";
 
 const ComingSoon = () => {
   return (
@@ -40,7 +40,7 @@ const ComingSoon = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">Coming soon</h1>
+                    <h1 className="large-heading">Summer Camp '24</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -50,8 +50,7 @@ const ComingSoon = () => {
                       className="fz-18 has-3-color"
                       style={{ maxWidth: "37.5rem" }}
                     >
-                      Condimentum ipsum a adipiscing hac dolor set consectetur
-                      urna commodo ut nisl partu convallier ullamcorpe.
+                      Φροντίδα σκύλων // Εκπαίδευση & Συμπεριφορά // Αποκατάσταση & Φυσικοθεραπεία // Διαμονή // Ομαδικές δραστηριότητες διασκέδασης 
                     </p>
                   </div>
 
@@ -73,8 +72,7 @@ const ComingSoon = () => {
                     data-aos-delay="200"
                   >
                     <p className="fz-24 has-black-color">
-                      Get notify when website launch. <br />
-                      Don’t worry! we not spam.
+                      <br />Έλα, δούλεψε και μάθε μαζί μας τα μυστικά της φυσικοθεραπείας και της συμπεριφοράς ζώων σε συνεργασία με το Cane Sentio.                    
                     </p>
                     {/* <!--Spacer--> */}
                     <div
@@ -85,7 +83,7 @@ const ComingSoon = () => {
                       }}
                     ></div>
                     {/* <!--Spacer--> */}
-                    <Newsletter />
+                    {/*<Newsletter />*/}
                   </div>
                 </div>
                 <div className="col-xl-5 d-none d-xl-block">

@@ -6,15 +6,15 @@ const caseStudyContent = [
       {
         dealyAnimation: "100",
         title: "ΣΚΥΛΟΣ",
-        subTitle1: `Justin,
+        subTitle1: `Pongo,
                 `,
-        subTitle2: "2 ετών, pitbull mix",
+        subTitle2: "15 ετών, mix",
         subTitle3: "",
       },
       {
         dealyAnimation: "200",
         title: "ΠΛΑΝΟ ΘΕΡΑΠΕΙΑΣ",
-        subTitle1: `Υδροθεραπεία,`,
+        subTitle1: `Βελονισμός,`,
         subTitle2: "Θεραπευτική Άσκηση,",
         subTitle3: "Laser",
       },
@@ -25,15 +25,15 @@ const caseStudyContent = [
       {
         dealyAnimation: "300",
         title: "ΣΤΟΧΟΙ",
-        subTitle1: `Αδυνάτισμα
+        subTitle1: `Διαχείριση Πόνου
                 `,
         subTitle2: "Ενδυνάμωση",
-        subTitle3: "Εκπαίδευση",
+        subTitle3: "Βελτιώση Κίνησης",
       },
       {
         dealyAnimation: "400",
         title: "ΗΜΕΡΟΜΗΝΙΑ",
-        subTitle1: `Αύγουστος, 2023`,
+        subTitle1: `Ιούλιος, 2021`,
         subTitle2: "",
         subTitle3: "",
       },

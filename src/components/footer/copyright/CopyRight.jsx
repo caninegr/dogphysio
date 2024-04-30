@@ -15,13 +15,13 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            Moonex by{" "}
+            DogPhysio{" "}by{" "}
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://cane.gr"
               rel="noopener noreferrer"
               target="_blank"
             >
-              ib-themes
+              cane sentio
             </a>
           </span>
           . All Rights Reserved.

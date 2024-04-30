@@ -4,32 +4,23 @@ import Slider from "react-slick";
 
 const portfolioContent = [
   {
+    img: "justin/work-1",
+    categorie: "Justin",
+    title: "Δυσπλασία Ισχίων",
+    link: "/works-showcase-1",
+  },  
+  {
     img: "freud/work-1",
     categorie: "Freud",
     title: "Διάχυτο Νευρομυϊκό Νόσημα",
     link: "/works-showcase-2",
   },
   {
-    img: "work-2",
-    categorie: "Product",
-    title: "Film & Art Festival",
-  },
-  {
-    img: "work-3",
-    categorie: "Branding, Packaging",
-    title: "Dark Wishky Wine",
-  },
-  {
-    img: "work-4",
-    categorie: "Illustration",
-    title: "Swiss Style Poster",
-  },
-  {
-    img: "justin/work-1",
-    categorie: "Justin",
-    title: "Δυσπλασία Ισχίων",
-    link: "/works-showcase-1",
-  },
+    img: "pongo/work-1",
+    categorie: "Pongo",
+    title: "Οστεοαρθρίτιδα / Γηριατρικό",
+    link: "/works-showcase-3"
+  }
 ];
 
 const Portfolio = () => {

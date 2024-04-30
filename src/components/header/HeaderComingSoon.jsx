@@ -25,17 +25,10 @@ const HeaderComingSoon = () => {
             {/* <!--Socials--> */}
             <div className="ptf-navbar-socials">
               {/* <!--Social Icon--> */}
-              <a
-                className="ptf-social-icon ptf-social-icon--style-3 twitter"
-                href="#"
-                target="_blank"
-              >
-                <i className="socicon-twitter"></i>
-              </a>
               {/* <!--Social Icon--> */}
               <a
                 className="ptf-social-icon ptf-social-icon--style-3 facebook"
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100063698132030&sk=about"
                 target="_blank"
               >
                 <i className="socicon-facebook"></i>
@@ -43,19 +36,12 @@ const HeaderComingSoon = () => {
               {/* <!--Social Icon--> */}
               <a
                 className="ptf-social-icon ptf-social-icon--style-3 instagram"
-                href="#"
+                href="https://www.instagram.com/dog_physio_stella_kechagia/"
                 target="_blank"
               >
                 <i className="socicon-instagram"></i>
               </a>
               {/* <!--Social Icon--> */}
-              <a
-                className="ptf-social-icon ptf-social-icon--style-3 pinterest"
-                href="#"
-                target="_blank"
-              >
-                <i className="socicon-pinterest"></i>
-              </a>
             </div>
           </div>
         </div>
