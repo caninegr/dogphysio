@@ -7,11 +7,11 @@ import BlogPostAuthor from "../../../components/blog/BlogPostAuthor";
 import RelatedPost from "../../../components/blog/RelatedPost";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import ImageGridTwo from "../../../components/image-grid/ImageGridTwo";
 import SocialFour from "../../../components/social/SocialFour";
 import { blogContent } from "../../../data/blogs";
 import HeaderDefault2 from "../../../components/header/HeaderDefault2";
+
 const BlogDetails2 = () => {
   let params = useParams();
 
@@ -93,7 +93,7 @@ const BlogDetails2 = () => {
                         big promotion.
                       </p>
                       <p>
-                        Coventry is a city with a thousand years of history that
+                        1Coventry is a city with a thousand years of history that
                         has plenty to offer the visiting tourist. Located in the
                         heart of Warwickshire.
                       </p>

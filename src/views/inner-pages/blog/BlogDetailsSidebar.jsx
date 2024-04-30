@@ -94,7 +94,7 @@ const BlogDetailsSidebar = () => {
                         big promotion.
                       </p>
                       <p>
-                        Coventry is a city with a thousand years of history that
+                        2Coventry is a city with a thousand years of history that
                         has plenty to offer the visiting tourist. Located in the
                         heart of Warwickshire.
                       </p>
