@@ -71,7 +71,7 @@ const BlogMasonryGrid = ({ searchQuery }) => {
                     className="ptf-read-more-link"
                     to={`/blog-details2/${item.id}`}
                   >
-                    Continue
+                    Διαβασε
                   </Link>
                 </footer>
               </div>

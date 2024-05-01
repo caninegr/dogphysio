@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
 import Social from "../../components/social/Social";
@@ -8,13 +7,10 @@ import ContactForm from "../../components/ContactForm";
 import Address from "../../components/Address";
 import HeaderDefault2 from "../../components/header/HeaderDefault2";
 
-
-
 const MyComponent = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);    
+    window.scrollTo(0, 600);    
 })};
-
 
 const Contact = () => {
   return (

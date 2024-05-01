@@ -20,7 +20,7 @@ const BlogDetails2 = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
-        <title>Moonex - Bog Post Details</title>
+        <title>DogPhysio - {blog.title}</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -34,8 +34,8 @@ const BlogDetails2 = () => {
               <div className="container-xxl">
                 <h1 className="ptf-single-post__title">{blog.title}</h1>
                 <div className="ptf-single-post__meta">
-                  <span className="cat">Inspiration</span>
-                  <span className="date">Dec 7, 2021</span>
+                  <span className="cat">{blog.cat}</span>
+                  <span className="date">{blog.date}</span>
                 </div>
               </div>
             </header>
@@ -62,9 +62,10 @@ const BlogDetails2 = () => {
                   <div className="col-xl-8 offset-xl-2">
                     {/* <!--Post Info--> */}
                     <div className="ptf-single-post__info">
-                      <a className="author" href="#">
-                        <i className="lnil lnil-user"></i>by <span>Admin</span>
+                      <a className="author" href="/contact">
+                        <i className="lnil lnil-user"></i>από <span>Στέλλα Κεχαγιά</span>
                       </a>
+                      {/*
                       <a className="view" href="#">
                         <i className="lnil lnil-eye"></i>5,6k Views
                       </a>
@@ -74,6 +75,7 @@ const BlogDetails2 = () => {
                       <a className="report" href="#">
                         <i className="lnil lnil-warning"></i>Report
                       </a>
+                      */}
                     </div>
 
                     {/* <!--Post Excerpt--> */}
