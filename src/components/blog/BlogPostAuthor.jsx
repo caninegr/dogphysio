@@ -13,8 +13,8 @@ const BlogPostAuthor = () => {
       </div>
       <div className="ptf-about-author__content">
         <div className="ptf-about-author__header">
-          <h6>Eden Hazard</h6>
-          <span>Content Editor</span>
+          <h6>Στέλλα Κεχαγιά</h6>
+          <span>Φυσικοθεραπευτρια</span>
         </div>
         <div className="ptf-about-author__text">
           <p>
