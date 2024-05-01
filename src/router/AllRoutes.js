@@ -42,7 +42,8 @@ import Faq from "../views/inner-pages/Faq";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
-import BlogDetails2 from "../views/inner-pages/blog/BlogDetails2";
+//import BlogDetails2 from "../views/inner-pages/blog/BlogDetails2";
+import BlogDetailsArticle from "../views/inner-pages/blog/BlogDetailsArticle";
 
 const AllRoutes = () => {
   return (
@@ -73,7 +74,7 @@ const AllRoutes = () => {
         <Route path="/blog-masonry" element={<BlogMasonry />} />
         <Route path="/blog-sidebar" element={<BlogSidebar />} />
         <Route path="/blog-details" element={<BlogDetails />} />
-        <Route path="/blog-details2/:id" element={<BlogDetails2 />} />
+        <Route path="/blog-article/:id" element={<BlogDetailsArticle />} />
         <Route path="/blog-details-sidebar" element={<BlogDetailsSidebar />} />
 
         {/* Portfolio */}

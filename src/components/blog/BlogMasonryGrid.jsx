@@ -60,7 +60,7 @@ const BlogMasonryGrid = ({ searchQuery }) => {
                     <span className="date">{item.date}</span>
                   </div>
                   <h3 className="ptf-post__title">
-                    <Link to={`/blog-details2/${item.id}`}>{item.title}</Link>
+                    <Link to={`/blog-article/${item.id}`}>{item.title}</Link>
                   </h3>
                 </header>
                 <div className="ptf-post__excerpt">
@@ -69,7 +69,7 @@ const BlogMasonryGrid = ({ searchQuery }) => {
                 <footer className="ptf-post__footer">
                   <Link
                     className="ptf-read-more-link"
-                    to={`/blog-details2/${item.id}`}
+                    to={`/blog-article/${item.id}`}
                   >
                     Διαβασε
                   </Link>

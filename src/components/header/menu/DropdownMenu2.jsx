@@ -36,7 +36,7 @@ const menuContent = [
     ],
   },
   {
-    name: "Blog",
+    name: "Αρθρα",
     activeClass: "",
     menuClass: "",
     routerPath: "/blog-masonry",
