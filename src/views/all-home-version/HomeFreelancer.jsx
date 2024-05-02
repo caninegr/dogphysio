@@ -307,9 +307,9 @@ const HomeFreelancer = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="has-secondary-font fw-normal text-center">
+                  <h3 className="has-secondary-font fw-normal text-center">
                     <a href="#">@dog_physio_stella_kechagia</a>
-                  </h2>
+                  </h3>
                 </div>
 
                 {/* <!--Spacer--> */}

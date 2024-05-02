@@ -12,29 +12,8 @@ const menuContent = [
     name: "Υπηρεσιες",
     activeClass: "",
     menuClass: "",
-    dropDownItems: [
-      {
-        name: "Works Grid",
-        routerPath: "/works-grid",
-      },
-      {
-        name: "Works Masonry",
-        routerPath: "/works-masonry",
-      },
-      {
-        name: "Works Listing",
-        routerPath: "/works-listing",
-      },
-      {
-        name: "Works Carousel",
-        routerPath: "/works-carousel",
-      },
-      {
-        name: "Works Showcase",
-        routerPath: "/works-showcase",
-      },
-    ],
-  },
+    routerPath: "/service",
+    },
   {
     name: "Αρθρα",
     activeClass: "",
@@ -47,43 +26,19 @@ const menuContent = [
     menuClass: "two-columns",
     dropDownItems: [
       {
-        name: "About Us",
-        routerPath: "/about-us",
-      },
-      {
-        name: "About Me",
-        routerPath: "/about-me",
-      },
-      {
-        name: "Services",
-        routerPath: "/service",
-      },
-      {
-        name: "Service Details",
-        routerPath: "/service-details",
-      },
-      {
-        name: "Pricing",
-        routerPath: "/pricing",
-      },
-      {
-        name: "Team",
+        name: "Η Ομάδα",
         routerPath: "/team",
       },
       {
-        name: "FAQ",
+        name: "Συχνές Ερωτήσεις",
         routerPath: "/faq",
       },
       {
-        name: "Contact",
+        name: "Επικοινωνία",
         routerPath: "/contact",
       },
       {
-        name: "Page 404",
-        routerPath: "/404",
-      },
-      {
-        name: "Coming Soon",
+        name: "Εθελοντές",
         routerPath: "/coming-soon",
       },
     ],
