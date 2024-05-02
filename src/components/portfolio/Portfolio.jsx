@@ -32,6 +32,12 @@ const portfolioContent = [
     categorie: "Najac",
     title: "Προληπτική Φυσικοθεραπεία",
     link: "/works-showcase-5",
+  },
+  {
+    img: "simba/work-1",
+    categorie: "Simba",
+    title: "Νευρολογικό Περιστατικό",
+    link: "/works-showcase-6",
   }
 ];
 
