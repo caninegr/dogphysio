@@ -119,6 +119,40 @@ const HomeFreelancer = () => {
             {/*=============================================
             Start Brand Section 
             ============================================== */}
+            <section>
+              <div className="container">
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
+                ></div>
+                <div className="row">
+                  <div className="col-xl-10 offset-xl-1">
+                    {/* <!--Clients List--> */}
+                    <BrandThree />
+                  </div>
+                </div>
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": " 10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
+
+            <section>
+              <div className="container-xxl">
+                {/* <!--Divider--> */}
+                <div
+                  className="ptf-divider"
+                  style={{ "--ptf-height": "1px" }}
+                ></div>
+              </div>
+            </section>
+
+            {/*=============================================
+            Start Advantage Section 
+            ============================================== */}
 
 
             <section>

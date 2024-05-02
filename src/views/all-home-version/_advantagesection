@@ -1,79 +1,45 @@
+            
             <section>
-              <div className="container">
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
                 ></div>
-                <div className="row">
-                  <div className="col-xl-10 offset-xl-1">
-                    {/* <!--Clients List--> */}
-                    <BrandThree />
+                <div className="container-xxl">
+                  {/* <!--Animated Block--> */}
+                  <div
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <h2 className="h1 has-secondary-font fw-normal text-center">
+                      Τα Πλεονεκτήματα μου
+                    </h2>
                   </div>
+                  {/* End title */}
+  
+                  {/* <!--Spacer--> */}
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
+                  ></div>
+  
+                  <div
+                    className="row"
+                    style={{
+                      "--bs-gutter-x": "3.125rem",
+                      "--bs-gutter-y": "3.125rem",
+                    }}
+                  >
+                    <BrandFour />
+                  </div>
+                  {/* End brand */}
                 </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": " 10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            <section>
-              <div className="container-xxl">
-                {/* <!--Divider--> */}
-                <div
-                  className="ptf-divider"
-                  style={{ "--ptf-height": "1px" }}
-                ></div>
-              </div>
-            </section>
-
-            {/*=============================================
-            Start Advantage Section 
-            ============================================== */}
-            
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
-              ></div>
-              <div className="container-xxl">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 has-secondary-font fw-normal text-center">
-                    Τα Πλεονεκτήματα μου
-                  </h2>
-                </div>
-                {/* End title */}
-
+                {/* End .container */}
+  
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
+                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
                 ></div>
-
-                <div
-                  className="row"
-                  style={{
-                    "--bs-gutter-x": "3.125rem",
-                    "--bs-gutter-y": "3.125rem",
-                  }}
-                >
-                  <BrandFour />
-                </div>
-                {/* End brand */}
-              </div>
-              {/* End .container */}
-
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
+              </section>
