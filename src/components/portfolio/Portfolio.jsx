@@ -20,6 +20,18 @@ const portfolioContent = [
     categorie: "Pongo",
     title: "Οστεοαρθρίτιδα / Γηριατρικό",
     link: "/works-showcase-3"
+  },
+  {
+    img: "elmo/work-1",
+    categorie: "Elmo",
+    title: "Ρήξη Χιαστού",
+    link: "/works-showcase-4",
+  },
+  {
+    img: "najac/work-1",
+    categorie: "Najac",
+    title: "Προληπτική Φυσικοθεραπεία",
+    link: "/works-showcase-5",
   }
 ];
 
@@ -32,7 +44,7 @@ const Portfolio = () => {
     slidesToShow: 3,
     centerPadding: "0",
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     centerMode: true,
     responsive: [
       {

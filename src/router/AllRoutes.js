@@ -32,6 +32,8 @@ import WorksCarousel from "../views/inner-pages/portfolio/WorksCarousel";
 import WorksShowcase1 from "../views/inner-pages/portfolio/WorksShowcase1";
 import WorksShowcase2 from "../views/inner-pages/portfolio/WorksShowcase2";
 import WorksShowcase3 from "../views/inner-pages/portfolio/WorksShowcase3";
+import WorksShowcase4 from "../views/inner-pages/portfolio/WorksShowcase4";
+import WorksShowcase5 from "../views/inner-pages/portfolio/WorksShowcase5";
 
 // Others
 import Contact from "../views/inner-pages/Contact";
@@ -85,6 +87,8 @@ const AllRoutes = () => {
         <Route path="/works-showcase-1" element={<WorksShowcase1 />} />
         <Route path="/works-showcase-2" element={<WorksShowcase2 />} />
         <Route path="/works-showcase-3" element={<WorksShowcase3 />} />
+        <Route path="/works-showcase-4" element={<WorksShowcase4 />} />
+        <Route path="/works-showcase-5" element={<WorksShowcase5 />} />
 
         {/* others */}
         <Route path="/team" element={<Team />} />
