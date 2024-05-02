@@ -38,7 +38,13 @@ const portfolioContent = [
     categorie: "Simba",
     title: "Νευρολογικό Περιστατικό",
     link: "/works-showcase-6",
-  }
+  },
+  {
+    img: "wolfgang/work-1",
+    categorie: "Wolfgang",
+    title: "Νευροχειρουργική Επέμβαση στον Αυχένα ",
+    link: "/works-showcase-7",
+  }  
 ];
 
 const Portfolio = () => {
