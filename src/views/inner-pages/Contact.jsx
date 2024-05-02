@@ -9,7 +9,7 @@ import HeaderDefault2 from "../../components/header/HeaderDefault2";
 
 const MyComponent = () => {
   useEffect(() => {
-    window.scrollTo(0, 600);    
+    window.scrollTo(0, 10);    
 })};
 
 const Contact = () => {
