@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import CountDown from "../../components/CountDown";
 import HeaderComingSoon from "../../components/header/HeaderComingSoon";
 //import Newsletter from "../../components/Newsletter";
+import { Link } from "react-router-dom";
 
 const ComingSoon = () => {
   return (
@@ -78,10 +79,11 @@ const ComingSoon = () => {
                     <div
                       className="ptf-spacer"
                       style={{
-                        "--ptf-xxl": "3.125rem",
+                        "--ptf-xxl": "1.125rem",
                         "--ptf-md": "1.5625rem",
                       }}
                     ></div>
+                    <Link to="https://cane.gr/volunteer">Μάθε πως να συμμετέχεις εδώ!</Link>
                     {/* <!--Spacer--> */}
                     {/*<Newsletter />*/}
                   </div>
