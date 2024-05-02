@@ -8,7 +8,7 @@ const CountDown = () => {
 
   let interval = useRef();
   const setTimer = () => {
-    const countdownDate = new Date("May 27, 2024 08:00:00").getTime();
+    const countdownDate = new Date("May 27, 2024 00:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -17,7 +17,8 @@ const CountDown = () => {
       const hours = Math.floor(
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (100 * 60));
+      const minutes2 = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const minutes = minutes2;
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       if (distance < 0) {
@@ -30,7 +31,7 @@ const CountDown = () => {
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
       }
-    }, 1000);
+    }, 10);
   };
 
   useEffect(() => {
