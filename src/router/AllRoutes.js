@@ -8,6 +8,7 @@ import HomeAgency from "../views/all-home-version/HomeAgency";
 import HomeMinimal from "../views/all-home-version/HomeMinimal";
 import HomeTrending from "../views/all-home-version/HomeTrending";
 import HomeFreelancer from "../views/all-home-version/HomeFreelancer";
+import HomeFreelancerEN from "../views/all-home-version/HomeFreelancerEN";
 import HomeDark from "../views/all-home-version/HomeDark";
 import HomeModern from "../views/all-home-version/HomeModern";
 // Service
@@ -56,6 +57,7 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         <Route path="/" element={<HomeFreelancer />} />
+        <Route path="/en/" element={<HomeFreelancerEN />} />
         {/*  Homepage Demo */}
         <Route path="/home-default" element={<HomeDefault />} />
         <Route path="/home-studio" element={<HomeStudio />} />
