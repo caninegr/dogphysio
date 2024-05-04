@@ -1,0 +1,74 @@
+              {/*=============================================
+                et2
+                ============================================== */}
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h2 className="h1 has-secondary-font fw-normal text-center">
+                    ΕΤ2 - Πλάνα με ουρά
+                  </h2>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": " 5rem", "--ptf-md": "2.5rem" }}
+                ></div>
+                <div className="row" style={{ "--bs-gutter-y": "90px" }}>
+                  
+                {/* <!--Video Button--> */}
+                  <div  
+                    className="ptf-video-button"
+                    onClick={() => setOpen(true)}
+                    style={{
+                      "--ptf-title-color": "var(--ptf-color-black)",
+                      marginLeft: "2rem",
+                    }}
+                >
+                    <a href="#" rel="nofollow">
+                      <i className="lnil lnil-play"></i>
+                    </a>
+                    
+                    <div className="ptf-video-button__title">
+                    δες την <br />
+                    συνεντευξη
+                    </div>
+                  </div>
+
+                  <ModalVideo
+                    channel="youtube"
+                    autoplay
+                    isOpen={isOpen}
+                    videoId="1gyTUHP6ne8"
+                    onClose={() => setOpen(false)}
+                  />
+                {/* End Youtube Modal video */}
+
+
+
+                </div>
+              </div>
+              {/* End .container-xxl */}
+
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+
+              <div className="container-xxl">
+                {/* <!--Divider--> */}
+                <div
+                  className="ptf-divider"
+                  style={{ "--ptf-height": "1px" }}
+                ></div>
+              </div>
+
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import PersonalInfo from "../../components/about/PersonalInfo";
-import BrandFour from "../../components/brand/BrandFour";
+//import BrandFour from "../../components/brand/BrandFour";
 import BrandThree from "../../components/brand/BrandThree";
 import CallToAction from "../../components/CallToAction";
 import CounterFour from "../../components/counter/CounterFour";
@@ -12,10 +12,26 @@ import InstagramFeed from "../../components/InstagramFeed";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
+import ModalVideo from "react-modal-video";
 
 const avatar = "/assets/img/about-me-main-image.jpg";
 
 const HomeFreelancer = () => {
+
+  const [isOpen, setOpen] = useState(false);
+
+  const settings = {
+    dots: true,
+    arrow: true,
+    infinite: true,
+    fade: true,
+    speed: 1200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    // adaptiveHeight: true,
+  };
+
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-freelancer ">
       <Helmet>
@@ -216,6 +232,8 @@ const HomeFreelancer = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
+
+
 
               {/*=============================================
                 Start Portfolio Section
