@@ -61,14 +61,6 @@ const AllRoutes = () => {
         <Route path="/" element={<HomeFreelancer />} />
         <Route path="/en/" element={<HomeFreelancerEN />} />
         {/*  Homepage Demo */}
-        <Route path="/home-default" element={<HomeDefault />} />
-        <Route path="/home-studio" element={<HomeStudio />} />
-        <Route path="/home-agency" element={<HomeAgency />} />
-        <Route path="/home-minimal" element={<HomeMinimal />} />
-        <Route path="/home-trending" element={<HomeTrending />} />
-        <Route path="/home-freelancer" element={<HomeFreelancer />} />
-        <Route path="/home-dark" element={<HomeDark />} />
-        <Route path="/home-modern" element={<HomeModern />} />
 
         {/* Service */}
         <Route path="/service" element={<Service />} />
@@ -76,7 +68,7 @@ const AllRoutes = () => {
 
         {/* About */}
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/about-me" element={<Navigate to='/' />} />
 
         {/* Blog */}
         <Route path="/blog-grid" element={<BlogGrid />} />
