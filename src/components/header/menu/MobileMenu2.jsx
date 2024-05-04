@@ -30,10 +30,27 @@ const menuContent = [
     routerPath: "/blog-masonry",
   },
   {
-    name: "Επικοινωνία",
+    name: "Αλλα",
     activeClass: "",
-    menuClass: "",
-    routerPath: "/contact",
+    menuClass: "two-columns",
+    dropDownItems: [
+      {
+        name: "Η Ομάδα",
+        routerPath: "/team",
+      },
+      {
+        name: "Συχνές Ερωτήσεις",
+        routerPath: "/faq",
+      },
+      {
+        name: "Επικοινωνία",
+        routerPath: "/contact",
+      },
+      {
+        name: "Εθελοντές",
+        routerPath: "/coming-soon",
+      },
+    ],
   },
 ];
 

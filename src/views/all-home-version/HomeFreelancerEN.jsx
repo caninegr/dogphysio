@@ -35,7 +35,7 @@ const HomeFreelancerEN = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-freelancer ">
       <Helmet>
-        <title>Στέλλα Κεχαγιά - Φυσικοθεραπεία σε κατοικίδια</title>
+        <title>Stella Kechagia - Animal Physiotherapy</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -199,7 +199,7 @@ const HomeFreelancerEN = () => {
                   data-aos-delay="0"
                 >
                   <h2 className="h1 has-secondary-font fw-normal text-center">
-                    Σπουδές & Εμπειρία
+                    Studies & Experience
                   </h2>
                 </div>
                 {/* <!--Spacer--> */}
@@ -246,7 +246,7 @@ const HomeFreelancerEN = () => {
                   data-aos-delay="0"
                 >
                   <h2 className="h1 has-secondary-font fw-normal text-center">
-                    Παθήσεις & Περιστατικά
+                    Case Reports
                   </h2>
                 </div>
                 {/* <!--Spacer--> */}
