@@ -33,15 +33,14 @@ const Team = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">The face of Moonex Labs</h1>
+                    <h1 className="large-heading">Η ομάδα μας</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-24">
-                      Meet our talents team of creative, fun-lovers and magic
-                      makers.
+                      Μικρή αλλά θαυματουργή! Woof & Meow!
                     </p>
                   </div>
                 </div>

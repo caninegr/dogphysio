@@ -4,80 +4,37 @@ const teamContent = [
   {
     delayAnimation: "0",
     img: "team-1-m",
-    title: "Stephan Bowie",
-    designation: "CEO Founder",
+    title: "Στέλλα Κεχαγιά",
+    designation: "PT/CCRP/cert.Acu",
+    link: "#",
   },
   {
     delayAnimation: "100",
     img: "team-2-m",
-    title: "Robert Downey Jr",
-    designation: "CO Founder",
+    title: "Βασίλειος Παππάς",
+    designation: "Εκπαίδευση & Εκγύμναση",
+    link: "https://cane.gr",
   },
   {
     delayAnimation: "200",
     img: "team-3-m",
-    title: "Laura Lorwence",
-    designation: "Project Management",
+    title: "Χρύσουλα Πίχλιαβα",
+    designation: "Το Χρυσό Κορίτσι / Endless Support",
+    link: "#",
   },
   {
     delayAnimation: "300",
     img: "team-4-m",
-    title: "David De Berg",
-    designation: "Lead of Technical",
-  },
-  {
-    delayAnimation: "0",
-    img: "team-5-m",
-    title: "Elena Stephan",
-    designation: "SEO/Marketing",
-  },
-  {
-    delayAnimation: "100",
-    img: "team-6-m",
-    title: "Andy Robertson",
-    designation: "Content Writer",
-  },
-  {
-    delayAnimation: "200",
-    img: "team-7-m",
-    title: "Laura Lorwence",
-    designation: "Project Management",
-  },
-  {
-    delayAnimation: "300",
-    img: "team-8-m",
-    title: "David De Berg",
-    designation: "Lead of Technical",
-  },
-  {
-    delayAnimation: "0",
-    img: "team-9-m",
-    title: "Elena Stephan",
-    designation: "SEO/Marketing",
-  },
-  {
-    delayAnimation: "100",
-    img: "team-10-m",
-    title: "Andy Robertson",
-    designation: "Content Writer",
-  },
-  {
-    delayAnimation: "200",
-    img: "team-11-m",
-    title: "Elena Stephan",
-    designation: "SEO/Marketing",
-  },
-  {
-    delayAnimation: "300",
-    img: "team-12-m",
-    title: "Andy Robertson",
-    designation: "Content Writer",
+    title: "Κέτσαπ",
+    designation: "Emotional Support",
+    link: "#",
   },
   {
     delayAnimation: "400",
     img: "new-member",
     title: "",
     designation: "",
+    link: "/contact",
   },
 ];
 
@@ -95,7 +52,7 @@ const TeamTwo = () => {
           <div className="ptf-team-member">
             <div className="ptf-team-member__avatar">
               <div className="shadow-effect"></div>
-              <a href="#">
+              <a href={val.link}>
                 {" "}
                 <img
                   src={`/assets/img/root/team/${val.img}.png`}
