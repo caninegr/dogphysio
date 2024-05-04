@@ -8,11 +8,11 @@ const linkList = [
   },
   {
     itemName: "Οροι & Προυποθεσεις",
-    link: "/",
+    link: "/terms",
   },
   {
     itemName: "Πολιτικη Απορρητου",
-    link: "/",
+    link: "/privacy",
   },
   {
     itemName: "Υπηρεσιες",

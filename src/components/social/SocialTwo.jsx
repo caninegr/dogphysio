@@ -2,6 +2,11 @@ import React from "react";
 
 const socialList = [
   {
+    iconName: "socicon-flag",
+    link: "/en/",
+    target:"_self",
+  },
+  {
     iconName: "socicon-mail",
     link: "/contact",
     target:"_self",
@@ -20,7 +25,8 @@ const socialList = [
 
 const SocialTwo = () => {
   return (
-    <>
+    <>  
+      
       {socialList.map((val, i) => (
         <a
           className="ptf-social-icon ptf-social-icon--style-1"
@@ -32,6 +38,7 @@ const SocialTwo = () => {
           <i className={val.iconName}></i>
         </a>
       ))}
+      <a class="ptf-social-icon ptf-social-icon--style-1" target='_self' href='/en/'><img src='/assets/img/root/flag-en.png' /></a>
     </>
   );
 };

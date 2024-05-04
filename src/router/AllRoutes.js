@@ -44,6 +44,8 @@ import Contact from "../views/inner-pages/Contact";
 import PricingInner from "../views/inner-pages/PricingInner";
 import Team from "../views/inner-pages/Team";
 import ComingSoon from "../views/inner-pages/ComingSoon";
+import Terms from "../views/inner-pages/Terms";
+import Privacy from "../views/inner-pages/Privacy";
 import Faq from "../views/inner-pages/Faq";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
@@ -102,6 +104,8 @@ const AllRoutes = () => {
         <Route path="/pricing" element={<PricingInner />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<NotFound />} />
 

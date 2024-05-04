@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const footerItems = [
   { itemName: "Συχνές Ερωτήσεις", link: "/faq" },
-  { itemName: "Όροι & Προϋποθέσεις", link: "" },
-  { itemName: "Πολιτική Απορρήτου", link: "" },
+  { itemName: "Όροι & Προϋποθέσεις", link: "/terms" },
+  { itemName: "Πολιτική Απορρήτου", link: "/privacy" },
   { itemName: "Works", link: "" },
   { itemName: "Studio", link: "" },
   { itemName: "News", link: "" },

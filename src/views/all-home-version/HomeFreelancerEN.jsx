@@ -6,7 +6,7 @@ import BrandThree from "../../components/brand/BrandThree";
 import CallToAction from "../../components/CallToAction";
 import CounterFour from "../../components/counter/CounterFour";
 import FooterFour from "../../components/footer/FooterFour";
-import HeaderFreelancer from "../../components/header/HeaderFreelancer";
+import HeaderFreelancerEN from "../../components/header/HeaderFreelancerEN";
 import HeroFreelancer from "../../components/hero/HeroFreelancer";
 import InstagramFeed from "../../components/InstagramFeed";
 import Portfolio from "../../components/portfolio/Portfolio";
@@ -39,7 +39,7 @@ const HomeFreelancerEN = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderFreelancer />
+      <HeaderFreelancerEN />
       {/* End header */}
 
       <div className="ptf-site-wrapper__inner">
