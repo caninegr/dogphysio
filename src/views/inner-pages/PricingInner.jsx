@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../components/header/HeaderDefault";
+import HeaderDefault2 from "../../components/header/HeaderDefault2";
 import Pricing from "../../components/pricing/Pricing";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
@@ -14,7 +14,7 @@ const PricingInner = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -34,15 +34,14 @@ const PricingInner = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">Pricing & Plan</h1>
+                    <h1 className="large-heading">Εξατομικευμένη θεραπεία ή εξειδικευμένα πακέτα</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-24">
-                      We provide much types of plan for your purpose with an
-                      affordable.
+                      Το ιδανικότερο πακέτο θεραπείας για το κατοικίδιο σου.
                     </p>
                   </div>
                 </div>
@@ -76,14 +75,14 @@ const PricingInner = () => {
                 data-aos-delay="0"
               >
                 <p className="fz-24">
-                  You have a large team?
+                  Χρειάζεσαι περισσότερες πληροφορίες;&nbsp;
                   <Link
                     className="has-accent-4 text-decoration-underline"
                     to="/contact"
                   >
-                    Contact us
+                    Μίλησε μας
                   </Link>
-                  for information about more enterprise options.
+                  
                 </p>
               </div>
             </div>

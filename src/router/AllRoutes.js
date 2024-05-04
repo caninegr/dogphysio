@@ -41,7 +41,7 @@ import WorksShowcase7 from "../views/inner-pages/portfolio/WorksShowcase7";
 
 // Others
 import Contact from "../views/inner-pages/Contact";
-import PricingInner from "../views/inner-pages/PricingInner";
+//import PricingInner from "../views/inner-pages/PricingInner";
 import Team from "../views/inner-pages/Team";
 import ComingSoon from "../views/inner-pages/ComingSoon";
 import Terms from "../views/inner-pages/Terms";
@@ -93,7 +93,7 @@ const AllRoutes = () => {
 
         {/* others */}
         <Route path="/team" element={<Team />} />
-        <Route path="/pricing" element={<PricingInner />} />
+        {/*<Route path="/pricing" element={<PricingInner />} />*/}
         <Route path="/contact" element={<Contact />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/terms" element={<Terms />} />

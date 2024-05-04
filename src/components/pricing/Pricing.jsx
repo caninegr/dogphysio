@@ -3,39 +3,34 @@ import { Link } from "react-router-dom";
 
 const pricingContent = [
   {
-    planName: "BASIC PLAN",
-    price: "49",
-    priceDuration: "Month",
-    pirceDescriptions: "10% taxed will include after make price",
-    pricingFeatures: ["Full Design & Development", "Installation"],
+    planName: "PERSONALISED PLAN",
+    price: "25",
+    priceDuration: "Εβδομάδα",
+    priceDescriptions: "Οι τιμές περιλαμβάνουν ΦΠΑ",
+    pricingFeatures: ["Δημιουργουμε το ιδανικοτερο πακετο θεραπειας για το κατοικιδιο σου βαση της παθησης, της προσωπικοτητας του και του χρονου που διαθετεις."],
     badge: "",
     badgeClass: "",
     delayAnimation: "0",
   },
   {
-    planName: "PREMIUM PLAN",
-    price: "69",
-    priceDuration: "Month",
-    pirceDescriptions: "10% taxed will include after make price",
+    planName: "OA PLAN",
+    price: "55",
+    priceDuration: "Εβδομάδα",
+    priceDescriptions: "Οι τιμές περιλαμβάνουν ΦΠΑ",
     pricingFeatures: [
-      "Full Design & Development",
-      "Installation",
-      "Support Lifetime",
+      "Ο σκυλος σου μεγαλωσε, πονανε οι αρθρωσεις του, δυσκολευεται να σηκωθει.",
     ],
     badge: "Popular",
     badgeClass: "badge",
     delayAnimation: "100",
   },
   {
-    planName: "ULTIMATE PLAN",
-    price: "99",
-    priceDuration: "Month",
-    pirceDescriptions: "10% taxed will include after make price",
+    planName: "PREHAB PLAN",
+    price: "37,5",
+    priceDuration: "Εβδομάδα",
+    priceDescriptions: "Οι τιμές περιλαμβάνουν ΦΠΑ",
     pricingFeatures: [
-      "Full Design & Development",
-      "Installation",
-      "Support Lifetime",
-      "SEO/Marketing Include",
+      "Γιατι να περιμενεις να χρειαστει ο σκυλος σου εξειδικευμενη φροντιδα και να μην προνοησεις; Δημιουργησαμε ενα πλανο προληπτικης φυσικοθεραπειας.",
     ],
     badge: "",
     badgeClass: "",
@@ -58,15 +53,15 @@ const Pricing = () => {
             <div className="ptf-pricing-table h-100">
               <div className={val.badgeClass}>{val.badge}</div>
               <div className="ptf-pricing-table__header">
-                <h4 className="ptf-pricing-table__title">{val.planName}</h4>
+                <h4 className="period">{val.planName}</h4>
               </div>
               <div className="ptf-pricing-table__price">
-                <span className="currency">$</span>
+              <span className="period">από</span><span className="currency">€</span>
                 <span className="price">{val.price}</span>
                 <span className="period">/ {val.priceDuration}</span>
               </div>
               <div className="ptf-pricing-table__description">
-                {val.priceDuration}
+                {val.priceDescriptions}
               </div>
               <div className="ptf-pricing-table__content">
                 <ul>
@@ -81,7 +76,7 @@ const Pricing = () => {
                   className="ptf-btn ptf-btn--primary ptf-btn--block"
                   to="/contact"
                 >
-                  Start My Project Now
+                  Επικοινωνία
                 </Link>
               </div>
             </div>
