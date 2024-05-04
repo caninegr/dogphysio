@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigate, Link } from "react-router-dom";
 // import Preview from "../views/Preview";
 // Homepage Demo
 import HomeDefault from "../views/all-home-version/HomeDefault";
@@ -101,6 +102,10 @@ const AllRoutes = () => {
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<NotFound />} />
+
+        {/* imports */}
+        <Route path="/2018/02/05/λάθη-που-κάνουν-οι-ιδιοκτήτες-κατά-την" element={<Navigate to='/blog-article/cruciate-ligament' />} />
+  
       </Routes>
     </>
   );
