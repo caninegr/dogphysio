@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -20,9 +20,10 @@ const counterUpContent = [
   {
     startCount: "0",
     endCount: "90",
-    metaText1: "ΤΙΣ ΕΚΑΤΟ ΠΟΣΟΣΤΟ",
+    metaText1: "ΠΟΣΟΣΤΟ",
     metaText2: "ΕΠΙΤΥΧΙΑΣ",
     animationDelay: "200",
+    suffix: "%",
   },
   {
     startCount: "0",
@@ -68,6 +69,7 @@ const CounterFour = () => {
                   end={val.endCount}
                   duration={1}
                   redraw={true}
+                  suffix={val.suffix}
                 >
                   {({ countUpRef }) => (
                     <VisibilitySensor
@@ -77,7 +79,7 @@ const CounterFour = () => {
                         }
                       }}
                     >
-                      <span ref={countUpRef} />
+                      <span ref={countUpRef} ></span>
                     </VisibilitySensor>
                   )}
                 </CountUp>
