@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import HeaderDefault2 from "../../../components/header/HeaderDefault2";
 import ServiceOne from "../../../components/service/ServiceOne";
 import Approach from "../../..//components/service/Approach";
 import ContactJarallax from "../../../components/jarallax/ContactJarallax";
@@ -15,7 +15,7 @@ const Service = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">
