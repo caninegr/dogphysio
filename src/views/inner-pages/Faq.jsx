@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HeaderDefault from "../../components/header/HeaderDefault";
+import HeaderDefault2 from "../../components/header/HeaderDefault2";
 import CopyRight from "../../components/footer/copyright/CopyRight";
 import Footer from "../../components/footer/Footer";
 import FaqTwo from "../../components/faq/FaqTwo";
@@ -13,7 +13,7 @@ const Faq = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderDefault />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">

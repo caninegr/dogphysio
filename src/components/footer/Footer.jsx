@@ -3,47 +3,35 @@ import { Link } from "react-router-dom";
 
 const linkList = [
   {
-    itemName: "Faqs",
+    itemName: "Συχνες Ερωτησεις",
+    link: "/faq",
+  },
+  {
+    itemName: "Οροι & Προυποθεσεις",
     link: "/",
   },
   {
-    itemName: "Term & Conditions",
+    itemName: "Πολιτικη Απορρητου",
     link: "/",
   },
   {
-    itemName: "Privacy Policy",
-    link: "/",
-  },
-  {
-    itemName: "Help",
-    link: "/",
-  },
-  {
-    itemName: "Affiliate",
-    link: "/",
-  },
-  {
-    itemName: "Services",
-    link: "/",
+    itemName: "Υπηρεσιες",
+    link: "/service",
   },
 ];
 
 const Product = [
   {
-    itemName: "Works",
+    itemName: "Συνεργατες",
     link: "/",
   },
   {
-    itemName: "About",
-    link: "/",
+    itemName: "Volunteer",
+    link: "/volunteer",
   },
   {
-    itemName: "News",
-    link: "/",
-  },
-  {
-    itemName: "Contact",
-    link: "/",
+    itemName: "Επικοινωνια",
+    link: "/contact",
   },
 ];
 
@@ -84,7 +72,7 @@ const Footer = () => {
           data-aos-delay="100"
         >
           <div className="ptf-widget ptf-widget-links has-black-color">
-            <h4 className="ptf-widget-title">Links</h4>
+            <h4 className="ptf-widget-title">Βοήθεια</h4>
             <ul>
               {linkList.map((val, i) => (
                 <li key={i}>
@@ -103,7 +91,7 @@ const Footer = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <h4 className="ptf-widget-title">Product</h4>
+            <h4 className="ptf-widget-title">Σύνδεσμοι</h4>
             <div className="ptf-widget ptf-widget-links has-black-color">
               <ul>
                 {Product.map((val, i) => (

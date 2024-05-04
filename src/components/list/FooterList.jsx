@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const footerItems = [
-  { itemName: "Faqs", link: "" },
-  { itemName: "Term & Conditions", link: "" },
-  { itemName: "Privacy Policy", link: "" },
-  { itemName: "Help", link: "" },
+  { itemName: "Συχνές Ερωτήσεις", link: "/faq" },
+  { itemName: "Όροι & Προϋποθέσεις", link: "" },
+  { itemName: "Πολιτική Απορρήτου", link: "" },
   { itemName: "Works", link: "" },
   { itemName: "Studio", link: "" },
   { itemName: "News", link: "" },
