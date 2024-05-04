@@ -30,7 +30,7 @@ const menuContent = [
     routerPath: "/blog-masonry",
   },
   {
-    name: "Αλλα",
+    name: "Άλλα",
     activeClass: "",
     menuClass: "two-columns",
     dropDownItems: [

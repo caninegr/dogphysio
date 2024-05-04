@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import CountDown from "../../components/CountDown";
 import HeaderComingSoon from "../../components/header/HeaderComingSoon";
+import HeaderDefault2 from "../../components/header/HeaderDefault2";
 //import Newsletter from "../../components/Newsletter";
 import { Link } from "react-router-dom";
 
@@ -13,7 +14,7 @@ const ComingSoon = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderComingSoon />
+      <HeaderDefault2 />
       {/* End Header */}
 
       <div className="ptf-main">
