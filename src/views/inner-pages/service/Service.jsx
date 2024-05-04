@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Services</title>
+        <title>Φυσικοθεραπεία σε κατοικίδια - Υπηρεσίες</title>
       </Helmet>
       {/* End Page SEO Content */}
 

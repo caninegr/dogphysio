@@ -10,7 +10,7 @@ const ComingSoon = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - ComingSoon</title>
+        <title>Φυσικοθεραπεία σε κατοικίδια - Όροι</title>
       </Helmet>
       {/* End Page SEO Content */}
 

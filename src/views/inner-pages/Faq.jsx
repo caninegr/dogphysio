@@ -9,7 +9,7 @@ const Faq = () => {
   return (
     <div>
       <Helmet>
-        <title>Συχνές Ερωτήσεις</title>
+        <title>Φυσικοθεραπεία σε κατοικίδια - Συχνές Ερωτήσεις</title>
       </Helmet>
       {/* End Page SEO Content */}
 

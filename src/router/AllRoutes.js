@@ -17,7 +17,7 @@ import ServiceDetails from "../views/inner-pages/service/ServiceDetails";
 
 // About
 import AboutUs from "../views/inner-pages/about/AboutUs";
-import AboutMe from "../views/inner-pages/about/AboutMe";
+//import AboutMe from "../views/inner-pages/about/AboutMe";
 
 // Blog
 import BlogGrid from "../views/inner-pages/blog/BlogGrid";

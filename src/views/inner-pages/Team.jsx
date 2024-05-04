@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Team</title>
+        <title>Φυσικοθεραπεία σε κατοικίδια - Ομάδα</title>
       </Helmet>
       {/* End Page SEO Content */}
 
