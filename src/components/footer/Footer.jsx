@@ -23,11 +23,11 @@ const linkList = [
 const Product = [
   {
     itemName: "Συνεργατες",
-    link: "/",
+    link: "https://cane.gr",
   },
   {
     itemName: "Volunteer",
-    link: "/volunteer",
+    link: "/coming-soon",
   },
   {
     itemName: "Επικοινωνια",
