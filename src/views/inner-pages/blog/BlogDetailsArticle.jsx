@@ -130,7 +130,7 @@ const BlogDetailsArticle = () => {
 
                     </div>
 
-                    {/* <!--Related Posts--> */}
+                    {/* <!--Related Posts--> 
                     <div className="ptf-related-posts">
                       <h2 className="ptf-related-posts__title">
                         Σχετικά άρθρα
