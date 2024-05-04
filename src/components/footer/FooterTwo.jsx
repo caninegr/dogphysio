@@ -22,7 +22,7 @@ const FooterTwo = () => {
               </li>
               <li>
                 <span>Email</span>
-                <a href="mailto:hello@moonexstudio.com">
+                <a href="mailto:info@dogphysio.gr">
                   hello@moonexstudio.com
                 </a>
               </li>

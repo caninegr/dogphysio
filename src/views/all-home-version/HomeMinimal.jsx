@@ -55,7 +55,7 @@ const HomeMinimal = () => {
                       <span className="sep has-1-color">/</span>
                       <a
                         className="text-decoration-none"
-                        href="mailto:hello@moonex.com"
+                        href="mailto:info@dogphysio.gr"
                       >
                         hello@moonex.com
                       </a>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Social from "../social/SocialTwo";
+import SocialEN from "../social/SocialTwoEN";
 import DropdownMenu2 from "./menu/DropdownMenu2";
 import MobileMenu2 from "./menu/MobileMenu2";
 
@@ -47,7 +47,7 @@ const HeaderFreelancer = () => {
               {/* <!--Socials--> */}
               <div className="ptf-navbar-socials">
                 {/* <!--Social Icon--> */}
-                <Social />
+                <SocialEN />
               </div>
             </div>
           </div>

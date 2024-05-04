@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
 
           <p className="fz-24">Αγ.Σάββα 2, 56533, Θεσσαλονίκη</p>
-          <a className="fz-40 has-black-color" href="mailto:hello@moonex.co">
+          <a className="fz-40 has-black-color" href="mailto:info@dogphysio.gr">
             info@dogphysio.gr
           </a>
         </div>

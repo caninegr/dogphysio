@@ -155,7 +155,7 @@ const AboutMe = () => {
                       ></div>
                       <p className="fz-30 has-black-color has-secondary-font">
                         Warsaw, Poland <br />
-                        <a href="mailto:hello@brunoerdison.com">
+                        <a href="mailto:info@dogphysio.gr">
                           hello@brunoerdison.com
                         </a>
                         <br />

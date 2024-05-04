@@ -72,7 +72,7 @@ const TestimonialTwo = () => {
                 <div className="ptf-twitter-review__meta">
                   <h6 className="ptf-twitter-review__author">{val.name}</h6>
                   <div className="ptf-twitter-review__info">
-                    <a href="mailto:ibthemes21@gmail.com">{val.email}</a> -{" "}
+                    <a href="mailto:info@dogphysio.gr">{val.email}</a> -{" "}
                     {val.date}
                   </div>
                 </div>
