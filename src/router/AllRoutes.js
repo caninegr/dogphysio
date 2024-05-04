@@ -103,6 +103,7 @@ const AllRoutes = () => {
 
         {/* imports */}
         <Route path="/2018/02/05/λάθη-που-κάνουν-οι-ιδιοκτήτες-κατά-την" element={<Navigate to='/blog-article/cruciate-ligament' />} />
+        <Route path="/about-me/συνέντευξη/" element={<Navigate to='/' />} />
   
       </Routes>
     </>
