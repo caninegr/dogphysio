@@ -18,7 +18,7 @@ const teamContent = [
   {
     delayAnimation: "200",
     img: "team-3-m",
-    title: "Χρύσουλα Πίχλιαβα",
+    title: "Χρυσούλα Πίχλιαβα",
     designation: "Το Χρυσό Κορίτσι / Endless Support",
     link: "#",
   },
@@ -34,7 +34,7 @@ const teamContent = [
     img: "new-member",
     title: "",
     designation: "",
-    link: "/contact",
+    link: "/volunteer",
   },
 ];
 
