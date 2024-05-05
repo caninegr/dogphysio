@@ -47,8 +47,8 @@ const ContactForm = () => {
     //emailjs
       //.sendForm("service_cekj3z1", "template_glky4lt", form.current, {      
       //  publicKey: "5-h1SOGyHXyb7DPu6",
-      emailjs.send("service_3fe5ymo", "template_5f7y2qh", params, {      
-          publicKey: "B_6ATI9aNJz8TTyhM",
+      emailjs.send("service_28f8a5n", "template_zpbvy6a", params, {      
+          publicKey: "5-h1SOGyHXyb7DPu6",
       })
       .then((res) => {
         if (res.status == 200) {
