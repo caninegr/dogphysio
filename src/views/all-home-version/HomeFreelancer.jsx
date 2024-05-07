@@ -12,7 +12,7 @@ import InstagramFeed from "../../components/InstagramFeed";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
-import ModalVideo from "react-modal-video";
+//import ModalVideo from "react-modal-video";
 
 const avatar = "/assets/img/about-me-main-image.jpg";
 

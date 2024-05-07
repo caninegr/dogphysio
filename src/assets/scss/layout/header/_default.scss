@@ -211,7 +211,7 @@
       margin-right: 8%;
     }
 
-    @include mq("medium") {
+    @include mq("large") {
       a {
         display: none;
       }

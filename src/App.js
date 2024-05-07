@@ -10,6 +10,14 @@ import { Helmet } from "react-helmet";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
 
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-CZ5R0LFTLS");
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
+
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -30,7 +38,7 @@ const App = () => {
         <title>Φυσικοθεραπεία σε κατοικίδια - Στέλλα Κεχαγιά</title>
         <meta
           name="description"
-          content="Φυσιοθεραπεία για σκύλους και γάτες, ενδυνάμωση και μεταχειρουργική αποκατάσταση"
+          content="Φυσικοθεραπεία για σκύλους και γάτες, ενδυνάμωση και μεταχειρουργική αποκατάσταση"
         />
         <meta
           name="keywords"

@@ -2,17 +2,12 @@ import React from "react";
 import { Navigate, Link } from "react-router-dom";
 // import Preview from "../views/Preview";
 // Homepage Demo
-import HomeDefault from "../views/all-home-version/HomeDefault";
-import HomeStudio from "../views/all-home-version/HomeStudio";
-import HomeAgency from "../views/all-home-version/HomeAgency";
-import HomeMinimal from "../views/all-home-version/HomeMinimal";
-import HomeTrending from "../views/all-home-version/HomeTrending";
+
 import HomeFreelancer from "../views/all-home-version/HomeFreelancer";
 import HomeFreelancerEN from "../views/all-home-version/HomeFreelancerEN";
-import HomeDark from "../views/all-home-version/HomeDark";
-import HomeModern from "../views/all-home-version/HomeModern";
 // Service
 import Service from "../views/inner-pages/service/Service";
+import ServiceEN from "../views/inner-pages/service/ServiceEN";
 import ServiceDetails from "../views/inner-pages/service/ServiceDetails";
 
 // About
@@ -20,9 +15,7 @@ import AboutUs from "../views/inner-pages/about/AboutUs";
 //import AboutMe from "../views/inner-pages/about/AboutMe";
 
 // Blog
-import BlogGrid from "../views/inner-pages/blog/BlogGrid";
 import BlogMasonry from "../views/inner-pages/blog/BlogMasonry";
-import BlogSidebar from "../views/inner-pages/blog/BlogSidebar";
 import BlogDetails from "../views/inner-pages/blog/BlogDetails";
 import BlogDetailsSidebar from "../views/inner-pages/blog/BlogDetailsSidebar";
 
@@ -43,6 +36,7 @@ import WorksShowcase7 from "../views/inner-pages/portfolio/WorksShowcase7";
 import Contact from "../views/inner-pages/Contact";
 //import PricingInner from "../views/inner-pages/PricingInner";
 import Team from "../views/inner-pages/Team";
+import TeamEN from "../views/inner-pages/TeamEN";
 import ComingSoon from "../views/inner-pages/ComingSoon";
 import Terms from "../views/inner-pages/Terms";
 import Privacy from "../views/inner-pages/Privacy";
@@ -71,9 +65,9 @@ const AllRoutes = () => {
         <Route path="/about-me" element={<Navigate to='/' />} />
 
         {/* Blog */}
-        <Route path="/blog-grid" element={<BlogGrid />} />
+        {/*<Route path="/blog-grid" element={<BlogGrid />} />*/}
         <Route path="/blog-masonry" element={<BlogMasonry />} />
-        <Route path="/blog-sidebar" element={<BlogSidebar />} />
+        {/*<Route path="/blog-sidebar" element={<BlogSidebar />} />*/}
         <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="/blog-article/:id" element={<BlogDetailsArticle />} />
         <Route path="/blog-details-sidebar" element={<BlogDetailsSidebar />} />
@@ -93,6 +87,7 @@ const AllRoutes = () => {
 
         {/* others */}
         <Route path="/team" element={<Team />} />
+        <Route path="/teamEN" element={<TeamEN />} />
         {/*<Route path="/pricing" element={<PricingInner />} />*/}
         <Route path="/contact" element={<Contact />} />
         <Route path="/coming-soon" element={<ComingSoon />} />

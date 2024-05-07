@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import SocialEN from "../social/SocialTwoEN";
-import DropdownMenu2 from "./menu/DropdownMenu2";
-import MobileMenu2 from "./menu/MobileMenu2";
+import DropdownMenu2 from "./menu/DropdownMenu2EN";
+import MobileMenu2 from "./menu/MobileMenu2EN";
 
 const HeaderFreelancer = () => {
   const [click1, setClick1] = useState(false);
