@@ -104,6 +104,7 @@ const AllRoutes = () => {
         <Route path="/2020/11/09/θεραπευτικό-λέιζερ-στα-κατοικίδια" element={<Navigate to='/blog-article/laser' />} />
         <Route path="/2018/12/17/λήψη-βάρους-και-παχυσαρκία-στο-σκύλο-μ" element={<Navigate to='/blog-article/paxisarkia-1' />} />
         <Route path="/2018/01/30/διαχείριση-της-οστεοαρθρίτιδας-στα-ζ" element={<Navigate to='/blog-article/arthritis' />} />
+        <Route path="/2018/01/30/διαχείριση-της-οστεοαρθρίτιδας-στα-ζ/comment-page-1/" element={<Navigate to='/blog-article/arthritis' />} />
         <Route path="/2019/04/12/τα-οφέλη-της-φυσικοθεραπείας-σε-ζώα-συ" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/2018/08/12/φυσικοθεραπεία-στα-ζώα-συντροφιάς" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/2018/10/27/φυσικοθεραπεία-στα-ζώα-συντροφιάς-2" element={<Navigate to='/blog-article/physiotherapy' />} />
