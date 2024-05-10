@@ -98,6 +98,15 @@ const AllRoutes = () => {
 
         {/* imports */}
         <Route path="/2018/02/05/λάθη-που-κάνουν-οι-ιδιοκτήτες-κατά-την" element={<Navigate to='/blog-article/cruciate-ligament' />} />
+        <Route path="/2021/02/17/πως-να-φροντίσετε-το-παράλυτο-ζωάκι-σα" element={<Navigate to='/blog-article/paralysed-dog' />} />
+        <Route path="/2019/03/17/ο-βελονισμός-στα-κατοικίδια" element={<Navigate to='/blog-article/velonismos' />} />
+        <Route path="/2019/01/02/λήψη-βάρους-και-παχυσαρκία-στο-σκύλο-μ-2" element={<Navigate to='/blog-article/paxisarkia-2' />} />
+        <Route path="/2020/11/09/θεραπευτικό-λέιζερ-στα-κατοικίδια" element={<Navigate to='/blog-article/laser' />} />
+        <Route path="/2018/12/17/λήψη-βάρους-και-παχυσαρκία-στο-σκύλο-μ" element={<Navigate to='/blog-article/paxisarkia-1' />} />
+        <Route path="/2018/01/30/διαχείριση-της-οστεοαρθρίτιδας-στα-ζ" element={<Navigate to='/blog-article/arthritis' />} />
+        <Route path="/2019/04/12/τα-οφέλη-της-φυσικοθεραπείας-σε-ζώα-συ" element={<Navigate to='/blog-article/physiotherapy' />} />
+        <Route path="/2018/08/12/φυσικοθεραπεία-στα-ζώα-συντροφιάς" element={<Navigate to='/blog-article/physiotherapy' />} />
+        <Route path="/2018/10/27/φυσικοθεραπεία-στα-ζώα-συντροφιάς-2" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/about-me/συνέντευξη/" element={<Navigate to='/' />} />
   
       </Routes>
