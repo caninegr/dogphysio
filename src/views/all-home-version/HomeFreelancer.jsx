@@ -191,7 +191,7 @@ const HomeFreelancer = () => {
               {/*=============================================
                 Start Education & Experience Section 
                 ============================================== */}
-              <div className="container-xxl">
+              <div className="container-xxl" id="education">
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"

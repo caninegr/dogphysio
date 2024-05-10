@@ -107,7 +107,7 @@ const AllRoutes = () => {
         <Route path="/2019/04/12/τα-οφέλη-της-φυσικοθεραπείας-σε-ζώα-συ" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/2018/08/12/φυσικοθεραπεία-στα-ζώα-συντροφιάς" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/2018/10/27/φυσικοθεραπεία-στα-ζώα-συντροφιάς-2" element={<Navigate to='/blog-article/physiotherapy' />} />
-        <Route path="/about-me/συνέντευξη/" element={<Navigate to='/' />} />
+        <Route path="/about-me/συνέντευξη/" element={<Navigate to='/#education' />} />
   
       </Routes>
     </>
