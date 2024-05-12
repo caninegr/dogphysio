@@ -107,6 +107,7 @@ const BlogDetailsArticle = () => {
                       </p>
 
 
+
                       <br />
                       <p>
                         <div className="content" dangerouslySetInnerHTML={{__html: blog.text3}}></div>
