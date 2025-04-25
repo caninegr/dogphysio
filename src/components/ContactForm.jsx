@@ -8,7 +8,13 @@ import { render } from "@react-email/render";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
+
 const ContactForm = () => {
+
+  const params = new URLSearchParams(window.location.search);
+  //const params_id_from_name = params.get('id_from_name')
+ 
   const form = useRef();
   // for validation
   const validationSchema = Yup.object().shape({
@@ -121,6 +127,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="id_from_name"
+            value={params.get('from_name')}
             {...register("name")}
             className={`${errors.name ? "is-invalid" : ""}`}
           />
@@ -138,6 +145,7 @@ const ContactForm = () => {
             type="text"
             name="petname"
             id="id_petname"
+            value={params.get('petname')}
             {...register("petname")}
             className={`${errors.petname ? "is-invalid" : ""}`}
           />
@@ -153,6 +161,7 @@ const ContactForm = () => {
             type="text"
             name="petage"
             id="id_petage"
+            value={params.get('petage')}
             {...register("petage")}
             className={`${errors.petage ? "is-invalid" : ""}`}
           />
@@ -186,6 +195,7 @@ const ContactForm = () => {
             name="email"
             id="id_email_id"
             type="text"
+            value={params.get('email')}
             {...register("email")}
             className={` ${errors.email ? "is-invalid" : ""}`}
           />
@@ -203,6 +213,7 @@ const ContactForm = () => {
             type="text"
             name="projectGoal"
             id="id_projectGoal"
+            value={params.get('project')}
             {...register("projectGoal")}
             className={`${errors.projectGoal ? "is-invalid" : ""}`}
           />
@@ -235,6 +246,7 @@ const ContactForm = () => {
             type="text"
             name="mobile"
             id="id_mobile"
+            value={params.get('mobile')}
             {...register("mobile")}
             className={`${errors.mobile ? "is-invalid" : ""}`}
           />
