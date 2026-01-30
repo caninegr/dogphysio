@@ -5,14 +5,14 @@ import VisibilitySensor from "react-visibility-sensor";
 const counterUpContent = [
   {
     startCount: "0",
-    endCount: "17",
+    endCount: "18",
     metaText1: "ΕΤΗ",
     metaText2: "ΕΜΠΕΙΡΙΑΣ",
     animationDelay: "0",
   },
   {
     startCount: "0",
-    endCount: "870",
+    endCount: "1070",
     metaText1: "ΑΞΙΟΛΟΓΗΣΕΙΣ",
     metaText2: "ΚΑΤΟΙΚΙΔΙΩΝ",
     animationDelay: "100",
@@ -27,10 +27,11 @@ const counterUpContent = [
   },
   {
     startCount: "0",
-    endCount: "7000",
+    endCount: "8000",
     metaText1: "ΣΥΝΕΔΡΙΕΣ",
     metaText2: "ΘΕΡΑΠΕΙΑΣ",
     animationDelay: "300",
+    suffix: "+",
   },
 ];
 
