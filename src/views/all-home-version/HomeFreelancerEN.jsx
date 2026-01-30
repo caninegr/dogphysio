@@ -14,7 +14,7 @@ import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
 //import ModalVideo from "react-modal-video";
 
-const avatar = "/assets/img/about-me-main-image.jpg";
+const avatar = "/assets/img/about-me-main-image.png";
 
 const HomeFreelancerEN = () => {
 
