@@ -25,7 +25,7 @@ const CopyRightTwo = () => {
               ib-themes
             </a>
           </span>
-          . All Rights Reserved.
+          . Με επιφύλαξη παντός δικαιώματος.
         </p>
       </div>
       {/* End .col */}

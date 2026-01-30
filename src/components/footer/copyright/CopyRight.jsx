@@ -24,7 +24,7 @@ const CopyRight = () => {
               cane sentio
             </a>
           </span>
-          . All Rights Reserved.
+          . Με επιφύλαξη παντός δικαιώματος.
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">

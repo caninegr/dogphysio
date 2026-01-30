@@ -13,8 +13,7 @@ const FooterFour = () => {
             "
         >
           <p className="ptf-footer-copyright has-black-color">
-            &copy; {new Date().getFullYear()} <span>Dogphysio</span>. All Rights
-            Reserved.
+            &copy; {new Date().getFullYear()} <span>Dogphysio</span>. Με επιφύλαξη παντός δικαιώματος.
           </p>
         </div>
         {/* End .col */}
