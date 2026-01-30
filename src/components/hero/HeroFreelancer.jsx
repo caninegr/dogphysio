@@ -6,6 +6,10 @@ const heroContent = {
   text3: " στην Θεσσαλονίκη",
 };
 
+const heroSubContent = {
+  text1: "Αποκατάσταση & Υδροθεραπεία & Βελονισμός & Laser",
+};
+
 const HeroFreelancer = () => {
   return (
     <div className="col-xl-10 offset-xl-1">
@@ -24,6 +28,20 @@ const HeroFreelancer = () => {
           <br />
           {heroContent.text3}
         </h1>
+      </div>
+      <div>
+        <br/>
+        <h2
+          className="
+              small-heading
+              fz-24
+              has-secondary-font
+              fw-normal
+              text-center
+            "        
+        >
+          {heroSubContent.text1}
+        </h2>
       </div>
     </div>
   );

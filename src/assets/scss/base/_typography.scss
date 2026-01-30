@@ -163,6 +163,13 @@ h1,
 h2,
 .h2 {
   font-size: px2rem(48px);
+
+  @include mq("xlarge", min) {
+    &.small-heading {
+      font-size: px2rem(24px);
+      line-height: 1.1;
+    }
+  }  
 }
 
 h3,
