@@ -163,6 +163,7 @@ h1,
 h2,
 .h2 {
   font-size: px2rem(48px);
+  color: #5A5A5A;
 
   @include mq("xlarge", min) {
     &.small-heading {
