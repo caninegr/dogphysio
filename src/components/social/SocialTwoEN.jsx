@@ -38,7 +38,7 @@ const SocialTwo = () => {
           <i className={val.iconName}></i>
         </a>
       ))}
-      <a class="ptf-social-icon ptf-social-icon--style-1" target='_self' href='/'><img src='/assets/img/root/flag-el.png' /></a>
+      <a class="ptf-social-icon ptf-social-icon--style-1" target='_self' href='/'><img src='/assets/img/root/flag-el.png' alt="language flag icon"/></a>
     </>
   );
 };

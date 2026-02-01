@@ -62,7 +62,7 @@ const HeaderFreelancer = () => {
       >
         <div className="ptf-offcanvas-menu__header">
           <div className="ptf-language-switcher">
-            <a className="is-active" href="/"><img src='/assets/img/root/flag-el.png' /></a>
+            <a className="is-active" href="/"><img src='/assets/img/root/flag-el.png' alt="language flag icon" /></a>
             {/*<a href="/en/"><img src='/assets/img/root/flag-en.png' /></a>*/}
           </div>
           <span
