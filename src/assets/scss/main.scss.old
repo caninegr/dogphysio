@@ -18,8 +18,10 @@
 // react modal
 @import "node_modules/react-modal-video/scss/modal-video.scss";
 
-// fonts - Combined into ONE request for better performance
-@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Arima:wght@400;700&family=Manrope:wght@400;700&display=swap");
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Amiri&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&amp;display=swap");
 @import url("../fonts/CerebriSans/style.css");
 
 // icons
