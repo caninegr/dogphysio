@@ -1,5 +1,4 @@
 import React from "react";
-import useAos from "../../hooks/useAos"; // adjust path if needed
 
 const heroContent = {
   text1: "Στέλλα Κεχαγιά",
@@ -12,18 +11,17 @@ const heroSubContent = {
 };
 
 const HeroFreelancer = () => {
-  useAos(); // loads AOS + its CSS only when this component is mounted
-
   return (
     <div className="col-xl-10 offset-xl-1">
+      {/* <!--Animated Block--> */}
       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
         <h1
           className="
-            large-heading
-            has-secondary-font
-            fw-normal
-            text-center
-          "
+              large-heading
+              has-secondary-font
+              fw-normal
+              text-center
+            "
         >
           {heroContent.text1} <br />
           {heroContent.text2}
@@ -31,17 +29,16 @@ const HeroFreelancer = () => {
           {heroContent.text3}
         </h1>
       </div>
-
       <div>
-        <br />
+        <br/>
         <h2
           className="
-            small-heading
-            fz-24
-            has-secondary-font
-            fw-normal
-            text-center
-          "
+              small-heading
+              fz-24
+              has-secondary-font
+              fw-normal
+              text-center
+            "        
         >
           {heroSubContent.text1}
         </h2>
