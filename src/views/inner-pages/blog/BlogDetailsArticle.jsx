@@ -36,19 +36,21 @@ const BlogDetailsArticle = () => {
             </header>
 
             {/* <!--Post Media--> */}
-            <div className="ptf-single-post__media">
-              <div className="container-xxl">
-                <img
-                  src={`/assets/img/blog/masonry/${blog.img}.png`}
-                  style={{
-                    maxHeight: "calc(100vh - 100px)",
-                    objectFit: "contain",
-                  }}
-                  alt="blog post"
-                  loading="lazy"
-                />
+            {blog.show_main_image !== false && (
+              <div className="ptf-single-post__media">
+                <div className="container-xxl">
+                  <img
+                    src={`/assets/img/blog/masonry/${blog.img}.png`}
+                    style={{
+                      maxHeight: "calc(100vh - 100px)",
+                      objectFit: "contain",
+                    }}
+                    alt="blog post"
+                    loading="lazy"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
             {/* <!--Post Wrapper--> */}
             <div className="ptf-single-post__wrapper">

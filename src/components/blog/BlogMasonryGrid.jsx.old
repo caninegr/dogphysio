@@ -12,32 +12,17 @@ const breakpointColumnsObj = {
 
 const BlogMasonryGrid = ({ searchQuery }) => {
   const [filtered, setFiltered] = useState(blogContent);
-  
-  // Sort function: newest to oldest
-  const sortByDate = (posts) => {
-    return [...posts].sort((a, b) => {
-      // If sortDate exists, use it for sorting
-      if (a.sortDate && b.sortDate) {
-        return new Date(b.sortDate) - new Date(a.sortDate);
-      }
-      // If sortDate doesn't exist, maintain original order
-      return 0;
-    });
-  };
-
   useEffect(() => {
-    let items;
     if (searchQuery) {
-      items = blogContent.filter(
+      const items = blogContent.filter(
         (elm) =>
           elm.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
           elm.description.toLowerCase().includes(searchQuery.toLowerCase())
       );
+      setFiltered(items);
     } else {
-      items = blogContent;
+      setFiltered(blogContent);
     }
-    // Apply date sorting
-    setFiltered(sortByDate(items));
   }, [searchQuery]);
 
   return (
