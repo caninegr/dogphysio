@@ -8,42 +8,49 @@ const portfolioContent = [
     categorie: "Justin",
     title: "Δυσπλασία Ισχίων",
     link: "/works-showcase-1",
+    alt: "test",
   },  
   {
     img: "freud/work-1",
     categorie: "Freud",
     title: "Διάχυτο Νευρομυϊκό Νόσημα",
     link: "/works-showcase-2",
+    alt: "test",
   },
   {
     img: "pongo/work-1",
     categorie: "Pongo",
     title: "Οστεοαρθρίτιδα / Γηριατρικό",
-    link: "/works-showcase-3"
+    link: "/works-showcase-3",
+    alt: "test",
   },
   {
     img: "elmo/work-1",
     categorie: "Elmo",
     title: "Ρήξη Χιαστού",
     link: "/works-showcase-4",
+    alt: "test",
   },
   {
     img: "najac/work-1",
     categorie: "Najac",
     title: "Προληπτική Φυσικοθεραπεία",
     link: "/works-showcase-5",
+    alt: "test",
   },
   {
     img: "simba/work-1",
     categorie: "Simba",
     title: "Νευρολογικό Περιστατικό",
     link: "/works-showcase-6",
+    alt: "test",
   },
   {
     img: "wolfgang/work-1",
     categorie: "Wolfgang",
     title: "Νευροχειρουργική Επέμβαση στον Αυχένα ",
     link: "/works-showcase-7",
+    alt: "test",
   }  
 ];
 
@@ -88,7 +95,7 @@ const Portfolio = () => {
                 <Link to={item.link} className="ptf-work__link"></Link>
                 <img
                   src={`/assets/img/portfolio/single-work/${item.img}.png`}
-                  alt=""
+                  alt={item.alt}
                   loading="lazy"
                 />
               </div>

@@ -110,7 +110,7 @@ const HomeFreelancer = () => {
 
                           <img
                             src="/assets/img/root/about-me/about-me-main-image-layer-1.png"
-                            alt="layer"
+                            alt="Profile photo of Stella Kechagia"
                             loading="lazy"
                           />
                         </div>

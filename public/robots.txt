@@ -1,0 +1,13 @@
+# robots.txt for dogphysio.gr
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual sitemap URL when you have one)
+Sitemap: https://dogphysio.gr/sitemap.xml
+
+# Optional: Disallow crawling of any admin or private areas
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
