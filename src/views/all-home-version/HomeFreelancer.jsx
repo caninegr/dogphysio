@@ -92,13 +92,13 @@ const HomeFreelancer = () => {
                         <div className="ptf-mask-image">
                           <img
                             src="/assets/img/root/about-me/about-me-main-image-layer-2.png"
-                            alt="layer"
+                            alt="Profile photo of Stella Kechagia"
                             loading="lazy"
                             style={{ zIndex: "2" }}
                           />
                           <img
                             src="/assets/img/root/about-me/about-me-main-image-mask.png"
-                            alt="layer"
+                            alt="Profile photo of Stella Kechagia"
                             loading="lazy"
                             className="lay"
                             style={{
