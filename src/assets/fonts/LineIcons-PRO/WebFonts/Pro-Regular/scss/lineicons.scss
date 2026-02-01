@@ -8,6 +8,7 @@ Author: lineicons.com
 @import "mixins";
 
 @font-face {
+  font-display: swap;
   font-family: 'LineIconsPro Regular';
   src: url('#{$lnir-font-path}/LineIconsPro Regular.eot');
   src: url('#{$lnir-font-path}/LineIconsPro Regular.eot') format('embedded-opentype'),

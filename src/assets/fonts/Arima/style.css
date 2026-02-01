@@ -1,11 +1,13 @@
 @font-face {
- font-family: 'Arima';
- font-weight: 300;
- font-style: normal;
- src: url('Arima-Light.ttf') format('ttf');
+    font-display: swap;
+    font-family: 'Arima';
+    font-weight: 300;
+    font-style: normal;
+    src: url('Arima-Light.ttf') format('ttf');
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Arima';
     font-weight: normal;
     font-style: normal;
@@ -13,6 +15,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Arima';
     font-weight: 600;
     font-style: normal;
@@ -20,6 +23,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Arima';
     font-weight: 700;
     font-style: normal;

@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
  font-family: 'Cerebri Sans';
  font-weight: 300;
  font-style: normal;
@@ -6,6 +7,7 @@
 }
 
 @font-face {
+    font-display: swap;
  font-family: 'Cerebri Sans';
  font-weight: normal;
  font-style: normal;
@@ -13,6 +15,7 @@
 }
 
 @font-face {
+    font-display: swap;
  font-family: 'Cerebri Sans';
  font-weight: 600;
  font-style: normal;
@@ -20,6 +23,7 @@
 }
 
 @font-face {
+    font-display: swap;
  font-family: 'Cerebri Sans';
  font-weight: 700;
  font-style: normal;
@@ -27,6 +31,7 @@
 }
 
 @font-face {
+    font-display: swap;
  font-family: 'Cerebri Sans';
  font-weight: 800;
  font-style: normal;
