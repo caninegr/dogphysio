@@ -13,7 +13,7 @@ const InstagramFeed = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={`/assets/img/instagram/${icon}.png`}
+              src={`/assets/img/instagram/${icon}.webp`}
               alt="instagram icon"
               loading="lazy"
             />

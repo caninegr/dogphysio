@@ -94,7 +94,7 @@ const Portfolio = () => {
               <div className="ptf-work__media">
                 <Link to={item.link} className="ptf-work__link"></Link>
                 <img
-                  src={`/assets/img/portfolio/single-work/${item.img}.png`}
+                  src={`/assets/img/portfolio/single-work/${item.img}.webp`}
                   alt={item.alt}
                   loading="lazy"
                 />
