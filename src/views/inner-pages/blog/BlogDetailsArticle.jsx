@@ -40,7 +40,7 @@ const BlogDetailsArticle = () => {
               <div className="ptf-single-post__media">
                 <div className="container-xxl">
                   <img
-                    src={`/assets/img/blog/masonry/${blog.img}.png`}
+                    src={`/assets/img/blog/masonry/${blog.img}.webp`}
                     style={{
                       maxHeight: "calc(100vh - 100px)",
                       objectFit: "contain",
@@ -85,7 +85,7 @@ const BlogDetailsArticle = () => {
                     {blog.img1 && (
                       <>
                         <img
-                          src={`/assets/img/blog/masonry/${blog.img1}.png`}
+                          src={`/assets/img/blog/masonry/${blog.img1}.webp`}
                           style={{
                             maxHeight: "calc(100vh - 100px)",
                             objectFit: "contain",
@@ -102,7 +102,7 @@ const BlogDetailsArticle = () => {
                       {blog.img2 && (
                         <>
                           <img
-                            src={`/assets/img/blog/masonry/${blog.img2}.png`}
+                            src={`/assets/img/blog/masonry/${blog.img2}.webp`}
                             style={{
                               maxHeight: "calc(100vh - 100px)",
                               objectFit: "contain",

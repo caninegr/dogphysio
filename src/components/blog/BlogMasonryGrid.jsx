@@ -53,7 +53,7 @@ const BlogMasonryGrid = ({ searchQuery }) => {
             <article className="ptf-post ptf-post--style-2">
               <div className="ptf-post__media">
                 <img
-                  src={`/assets/img/blog/masonry/${item.img}.png`}
+                  src={`/assets/img/blog/masonry/${item.img}.webp`}
                   alt=""
                   loading="lazy"
                 />

@@ -39,7 +39,7 @@ const BlogDetails2 = () => {
             <div className="ptf-single-post__media">
               <div className="container-xxl">
                 <img
-                  src={`/assets/img/blog/masonry/${blog.img}.png`}
+                  src={`/assets/img/blog/masonry/${blog.img}.webp`}
                   style={{
                     maxHeight: "calc(100vh - 100px)",
                     objectFit: "contain",
@@ -85,7 +85,7 @@ const BlogDetails2 = () => {
                       </p>
 
                       <img
-                        src={`/assets/img/blog/masonry/${blog.img1}.png`}
+                        src={`/assets/img/blog/masonry/${blog.img1}.webp`}
                         style={{
                           maxHeight: "calc(100vh - 100px)",
                           objectFit: "contain",
