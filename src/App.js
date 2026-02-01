@@ -1,37 +1,35 @@
 import React, { useEffect, useState } from "react";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
+import { Helmet } from "react-helmet";
+import AnimatedCursor from "react-animated-cursor";
+import { ToastContainer } from "react-toastify";
+import { useLocation } from "react-router-dom";
+
+
 import AOS from "aos";
 //import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //import "photoswipe/dist/photoswipe.css";
-import "aos/dist/aos.css";
-import { Helmet } from "react-helmet";
-import AnimatedCursor from "react-animated-cursor";
-import { ToastContainer } from "react-toastify";
+//import "aos/dist/aos.css";
 
 import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-CZ5R0LFTLS");
-ReactGA.send({
-  hitType: "pageview",
-  page: window.location.pathname,
-});
 
 const App = () => {
   const [isFinePointer, setIsFinePointer] = useState(false);
+  const location = useLocation();
 
-  // Detect mouse/trackpad (fine pointer) vs touch (coarse pointer)
+  // Only show animated cursor on devices with mouse/trackpad
   useEffect(() => {
     if (!window?.matchMedia) return;
 
     const mql = window.matchMedia("(pointer: fine)");
     const handleChange = (e) => setIsFinePointer(e.matches);
 
-    // Set initial value
     setIsFinePointer(mql.matches);
 
-    // Listen for changes (Safari fallback included)
     if (mql.addEventListener) mql.addEventListener("change", handleChange);
     else mql.addListener(handleChange);
 
@@ -41,24 +39,13 @@ const App = () => {
     };
   }, []);
 
+  // Track route changes as pageviews (more correct than firing once at module load)
   useEffect(() => {
-    AOS.init({
-      duration: 1200,
+    ReactGA.send({
+      hitType: "pageview",
+      page: location.pathname + location.search,
     });
-
-    let scrollRef = 0;
-
-    const onScroll = () => {
-      // increase value up to 10, then refresh AOS
-      scrollRef <= 10 ? scrollRef++ : AOS.refresh();
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, []);
+  }, [location.pathname, location.search]);
 
   return (
     <>
@@ -73,7 +60,6 @@ const App = () => {
           content="φυσικοθεραπεία, φυσιοθεραπεία, κατοικίδια, ζώα, σκύλος, γάτα, δυσπλασία, αρθρίτιδα, ορθοπεδικά"
         />
       </Helmet>
-      {/* End React Helmet for SEO */}
 
       <ToastContainer
         position="top-right"
@@ -97,13 +83,9 @@ const App = () => {
           outerScale={1.2}
         />
       )}
-      {/* End Animated Cursor */}
 
       <ScrollToTop />
-      {/* End Scroll To Top */}
-
       <AllRoutes />
-      {/* End All Routes */}
     </>
   );
 };
