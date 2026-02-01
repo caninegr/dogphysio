@@ -14,8 +14,8 @@ import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
 //import ModalVideo from "react-modal-video";
 
-//import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+//import "slick-carousel/slick/slick-theme.css";
 import "photoswipe/dist/photoswipe.css";
 
 const avatar = "/assets/img/about-me-main-image.webp";

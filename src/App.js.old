@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
 import AOS from "aos";
@@ -19,28 +19,6 @@ ReactGA.send({
 });
 
 const App = () => {
-  const [isFinePointer, setIsFinePointer] = useState(false);
-
-  // Detect mouse/trackpad (fine pointer) vs touch (coarse pointer)
-  useEffect(() => {
-    if (!window?.matchMedia) return;
-
-    const mql = window.matchMedia("(pointer: fine)");
-    const handleChange = (e) => setIsFinePointer(e.matches);
-
-    // Set initial value
-    setIsFinePointer(mql.matches);
-
-    // Listen for changes (Safari fallback included)
-    if (mql.addEventListener) mql.addEventListener("change", handleChange);
-    else mql.addListener(handleChange);
-
-    return () => {
-      if (mql.removeEventListener) mql.removeEventListener("change", handleChange);
-      else mql.removeListener(handleChange);
-    };
-  }, []);
-
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -48,18 +26,12 @@ const App = () => {
 
     let scrollRef = 0;
 
-    const onScroll = () => {
+    window.addEventListener('scroll', function() {
       // increase value up to 10, then refresh AOS
       scrollRef <= 10 ? scrollRef++ : AOS.refresh();
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
+    });
+        
   }, []);
-
   return (
     <>
       <Helmet>
@@ -74,7 +46,6 @@ const App = () => {
         />
       </Helmet>
       {/* End React Helmet for SEO */}
-
       <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -87,16 +58,14 @@ const App = () => {
         pauseOnHover
       />
 
-      {isFinePointer && (
-        <AnimatedCursor
-          innerSize={8}
-          outerSize={44}
-          color="0, 153, 144"
-          outerAlpha={0.3}
-          innerScale={0.7}
-          outerScale={1.2}
-        />
-      )}
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={44}
+        color="0, 153, 144"
+        outerAlpha={0.3}
+        innerScale={0.7}
+        outerScale={1.2}
+      />
       {/* End Animated Cursor */}
 
       <ScrollToTop />
