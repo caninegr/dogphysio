@@ -80,37 +80,28 @@ const BlogDetailsArticle = () => {
 
                     {/* <!--Post Content--> */}
                     <div className="ptf-single-post__content">
-                    {blog.img1 && (
-                      <>
-                        <img
-                          src={`/assets/img/blog/masonry/${blog.img1}.png`}
-                          style={{
-                            maxHeight: "calc(100vh - 100px)",
-                            objectFit: "contain",
-                          }}
-                          alt="blog post"
-                          loading="lazy"
-                        />  
-                        <br /><br />
-                      </>
-                    )}                    
+                    <img
+                        src={`/assets/img/blog/masonry/${blog.img1}.png`}
+                        style={{
+                          maxHeight: "calc(100vh - 100px)",
+                          objectFit: "contain",
+                        }}
+                        alt="blog post"
+                        loading="lazy"
+                      />  
+                      <br /><br />                    
                       <p>
                         <div className="content" dangerouslySetInnerHTML={{__html: blog.text1}}></div>
                       </p>
-                      {blog.img2 && (
-                        <>
-                          <img
-                            src={`/assets/img/blog/masonry/${blog.img2}.png`}
-                            style={{
-                              maxHeight: "calc(100vh - 100px)",
-                              objectFit: "contain",
-                            }}
-                            alt="blog post"
-                            loading="lazy"
-                          /> 
-                          <br /><br />
-                        </>
-                      )}                     
+                      <img
+                        src={`/assets/img/blog/masonry/${blog.img2}.png`}
+                        style={{
+                          maxHeight: "calc(100vh - 100px)",
+                          objectFit: "contain",
+                        }}
+                        alt="blog post"
+                        loading="lazy"
+                      /> <br /><br />                     
                       <p>
                         <div className="content" dangerouslySetInnerHTML={{__html: blog.text2}}></div>
                       </p>
