@@ -35,12 +35,16 @@ const HeaderFreelancer = () => {
                   src="/assets/img/root/logo-center-dark.png"
                   alt=""
                   loading="lazy"
+                  width={94}
+                  height={83}
                 />
                 <img
                   className="white"
                   src="/assets/img/root/logo-center-white.png"
                   alt=""
                   loading="lazy"
+                  width={94}
+                  height={83}
                 />
               </Link>
 
