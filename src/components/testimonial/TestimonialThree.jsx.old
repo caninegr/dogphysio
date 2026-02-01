@@ -59,11 +59,9 @@ const TestimonialThree = () => {
               <h6 className="ptf-testimonial__author">{val.name}</h6>
               <div className="ptf-testimonial__info">
                 <span>{val.designation}</span> {" "}
-                  {val.webLink && val.companyName && (
-                    <a href={val.webLink}>
-                      {val.companyName}
-                    </a>
-                  )}
+                <a href={val.webLink} target="_blank" rel="noopener noreferrer">
+                  {val.companyName}
+                </a>
               </div>
             </div>
           </div>
