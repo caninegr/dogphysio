@@ -1,54 +1,74 @@
 import React, { useEffect, useState } from "react";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
-import AOS from "aos";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "photoswipe/dist/photoswipe.css";
-import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
-import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
 
+import AnimatedCursor from "react-animated-cursor";
 
-import ReactGA from "react-ga4";
+// NOTE: keep AOS CSS import out of the global bundle.
+// We'll dynamically import it only on desktop.
+// import "aos/dist/aos.css";
 
-ReactGA.initialize("G-CZ5R0LFTLS");
-ReactGA.send({
-  hitType: "pageview",
-  page: window.location.pathname,
-});
+const isFinePointer = () =>
+  typeof window !== "undefined" &&
+  typeof window.matchMedia === "function" &&
+  window.matchMedia("(pointer: fine)").matches;
+
+const isMobileLike = () =>
+  typeof window !== "undefined" &&
+  (window.innerWidth <= 768 || !isFinePointer());
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Detect mobile device
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768 || 'ontouchstart' in window);
-    };
-    
+    const checkMobile = () => setIsMobile(isMobileLike());
     checkMobile();
-    window.addEventListener('resize', checkMobile);
 
-    AOS.init({
-      duration: 1200,
-      // Disable AOS animations on mobile for better performance
-      disable: window.innerWidth < 768,
-    });
+    window.addEventListener("resize", checkMobile, { passive: true });
 
-    let scrollRef = 0;
+    // --- Google Analytics: move it into effect, and only in production ---
+    // (You had it running at module-eval time, which is unnecessary work up-front.)
+    if (process.env.NODE_ENV === "production") {
+      import("react-ga4")
+        .then(({ default: ReactGA }) => {
+          ReactGA.initialize("G-CZ5R0LFTLS");
+          ReactGA.send({
+            hitType: "pageview",
+            page: window.location.pathname + window.location.search,
+          });
+        })
+        .catch(() => {});
+    }
 
-    window.addEventListener('scroll', function() {
-      // increase value up to 10, then refresh AOS
-      scrollRef <= 10 ? scrollRef++ : AOS.refresh();
-    });
-    
+    // --- AOS: do NOT even load on mobile ---
+    // Also: remove the scrollRef/AOS.refresh() listener completely.
+    if (!isMobileLike()) {
+      // Defer so it doesn't compete with initial render
+      const startAOS = () => {
+        Promise.all([import("aos"), import("aos/dist/aos.css")])
+          .then(([AOS]) => {
+            AOS.default.init({
+              duration: 800,
+              once: true, // reduces repeated work while scrolling
+            });
+          })
+          .catch(() => {});
+      };
+
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(startAOS, { timeout: 1500 });
+      } else {
+        setTimeout(startAOS, 500);
+      }
+    }
+
     return () => {
-      window.removeEventListener('resize', checkMobile);
+      window.removeEventListener("resize", checkMobile);
     };
   }, []);
-  
+
   return (
     <>
       <Helmet>
@@ -62,7 +82,7 @@ const App = () => {
           content="φυσικοθεραπεία, φυσιοθεραπεία, κατοικίδια, ζώα, σκύλος, γάτα, δυσπλασία, αρθρίτιδα, ορθοπεδικά"
         />
       </Helmet>
-      {/* End React Helmet for SEO */}
+
       <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -75,7 +95,7 @@ const App = () => {
         pauseOnHover
       />
 
-      {/* Only show AnimatedCursor on desktop */}
+      {/* Only show AnimatedCursor on non-mobile-like devices */}
       {!isMobile && (
         <AnimatedCursor
           innerSize={8}
@@ -86,13 +106,9 @@ const App = () => {
           outerScale={1.2}
         />
       )}
-      {/* End Animated Cursor */}
 
       <ScrollToTop />
-      {/* End Scroll To Top */}
-
       <AllRoutes />
-      {/* End All Routes */}
     </>
   );
 };
