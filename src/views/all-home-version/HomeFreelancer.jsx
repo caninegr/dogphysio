@@ -87,7 +87,7 @@ const HomeFreelancer = () => {
                       data-aos-offset="-2000"
                       data-aos-duration="3000"
                     >
-                      <div className="ptf-custom--5512">
+                      <div className="ptf-custom--5512" style={{ position: "relative", aspectRatio: "1 / 1", width: "100%", maxWidth: 520, margin: "0 auto" }}>
                         {/* <!--Mask Image--> */}
                         <div className="ptf-mask-image">
                           <img
