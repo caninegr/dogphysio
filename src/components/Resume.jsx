@@ -72,17 +72,17 @@ const Resume = () => {
         <div className="col-12 col-md-6 col-lg-4" key={i}>
           {/* <!--Animated Block--> */}
           <div
-            className="ptf-animated-block"
+            className="ptf-animated-block "
             data-aos="fade"
             data-aos-delay={item.delayAnimation}
           >
             {/* <!--Timeline--> */}
             <div className="ptf-timeline">
-              <div className="ptf-timeline__year">{item.year}</div>
+              <div className="ptf-timeline__year ">{item.year}</div>
               <ul className="ptf-timeline__list">
                 {item.infoContent.map((val, i) => (
                   <li className="ptf-timeline__item" key={i}>
-                    <h4 className="ptf-timeline__title">{val.title}</h4>
+                    <h4 className="ptf-timeline__title ">{val.title}</h4>
                     <p className="ptf-timeline__description">{val.subTitle}</p>
                   </li>
                 ))}
