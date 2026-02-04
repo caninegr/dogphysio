@@ -1,69 +1,57 @@
-import React, { lazy, Suspense } from "react";
-import { Navigate } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
-import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+import React from "react";
+import { Navigate, Link } from "react-router-dom";
+// import Preview from "../views/Preview";
+// Homepage Demo
 
-// Lazy load all route components for code splitting
-const HomeFreelancer = lazy(() => import("../views/all-home-version/HomeFreelancer"));
-const HomeFreelancerEN = lazy(() => import("../views/all-home-version/HomeFreelancerEN"));
-
+import HomeFreelancer from "../views/all-home-version/HomeFreelancer";
+import HomeFreelancerEN from "../views/all-home-version/HomeFreelancerEN";
 // Service
-const Service = lazy(() => import("../views/inner-pages/service/Service"));
-const ServiceEN = lazy(() => import("../views/inner-pages/service/ServiceEN"));
-const ServiceDetails = lazy(() => import("../views/inner-pages/service/ServiceDetails"));
+import Service from "../views/inner-pages/service/Service";
+import ServiceEN from "../views/inner-pages/service/ServiceEN";
+import ServiceDetails from "../views/inner-pages/service/ServiceDetails";
 
 // About
-const AboutUs = lazy(() => import("../views/inner-pages/about/AboutUs"));
+import AboutUs from "../views/inner-pages/about/AboutUs";
+//import AboutMe from "../views/inner-pages/about/AboutMe";
 
 // Blog
-const BlogMasonry = lazy(() => import("../views/inner-pages/blog/BlogMasonry"));
-const BlogDetails = lazy(() => import("../views/inner-pages/blog/BlogDetails"));
-const BlogDetailsSidebar = lazy(() => import("../views/inner-pages/blog/BlogDetailsSidebar"));
-const BlogDetailsArticle = lazy(() => import("../views/inner-pages/blog/BlogDetailsArticle"));
+import BlogMasonry from "../views/inner-pages/blog/BlogMasonry";
+import BlogDetails from "../views/inner-pages/blog/BlogDetails";
+import BlogDetailsSidebar from "../views/inner-pages/blog/BlogDetailsSidebar";
 
 // Portfolio
-const WorksGrid = lazy(() => import("../views/inner-pages/portfolio/WorksGrid"));
-const WorksMasonry = lazy(() => import("../views/inner-pages/portfolio/WorksMasonry"));
-const WorksListing = lazy(() => import("../views/inner-pages/portfolio/WorksListing"));
-const WorksCarousel = lazy(() => import("../views/inner-pages/portfolio/WorksCarousel"));
-const WorksShowcase1 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase1"));
-const WorksShowcase2 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase2"));
-const WorksShowcase3 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase3"));
-const WorksShowcase4 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase4"));
-const WorksShowcase5 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase5"));
-const WorksShowcase6 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase6"));
-const WorksShowcase7 = lazy(() => import("../views/inner-pages/portfolio/WorksShowcase7"));
+import WorksGrid from "../views/inner-pages/portfolio/WorksGrid";
+import WorksMasonry from "../views/inner-pages/portfolio/WorksMasonry";
+import WorksListing from "../views/inner-pages/portfolio/WorksListing";
+import WorksCarousel from "../views/inner-pages/portfolio/WorksCarousel";
+import WorksShowcase1 from "../views/inner-pages/portfolio/WorksShowcase1";
+import WorksShowcase2 from "../views/inner-pages/portfolio/WorksShowcase2";
+import WorksShowcase3 from "../views/inner-pages/portfolio/WorksShowcase3";
+import WorksShowcase4 from "../views/inner-pages/portfolio/WorksShowcase4";
+import WorksShowcase5 from "../views/inner-pages/portfolio/WorksShowcase5";
+import WorksShowcase6 from "../views/inner-pages/portfolio/WorksShowcase6";
+import WorksShowcase7 from "../views/inner-pages/portfolio/WorksShowcase7";
 
 // Others
-const Contact = lazy(() => import("../views/inner-pages/Contact"));
-const Team = lazy(() => import("../views/inner-pages/Team"));
-const TeamEN = lazy(() => import("../views/inner-pages/TeamEN"));
-const ComingSoon = lazy(() => import("../views/inner-pages/ComingSoon"));
-const Terms = lazy(() => import("../views/inner-pages/Terms"));
-const Privacy = lazy(() => import("../views/inner-pages/Privacy"));
-const Faq = lazy(() => import("../views/inner-pages/Faq"));
-const NotFound = lazy(() => import("../views/NotFound"));
-
-// Loading component to show while routes are loading
-const LoadingFallback = () => (
-  <div style={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    alignItems: 'center', 
-    minHeight: '100vh',
-    fontSize: '18px',
-    color: '#666'
-  }}>
-    Φόρτωση...
-  </div>
-);
+import Contact from "../views/inner-pages/Contact";
+//import PricingInner from "../views/inner-pages/PricingInner";
+import Team from "../views/inner-pages/Team";
+import TeamEN from "../views/inner-pages/TeamEN";
+import ComingSoon from "../views/inner-pages/ComingSoon";
+import Terms from "../views/inner-pages/Terms";
+import Privacy from "../views/inner-pages/Privacy";
+import Faq from "../views/inner-pages/Faq";
+import NotFound from "../views/NotFound";
+import { Routes, Route } from "react-router-dom";
+import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+//import BlogDetails2 from "../views/inner-pages/blog/BlogDetails2";
+import BlogDetailsArticle from "../views/inner-pages/blog/BlogDetailsArticle";
 
 const AllRoutes = () => {
   return (
     <>
       <ScrollTopBehaviour />
-      <Suspense fallback={<LoadingFallback />}>
-        <Routes>
+      <Routes>
         <Route path="/" element={<HomeFreelancer />} />
         <Route path="/en/" element={<HomeFreelancerEN />} />
         {/*  Homepage Demo */}
@@ -122,7 +110,6 @@ const AllRoutes = () => {
         <Route path="/2018/10/27/φυσικοθεραπεία-στα-ζώα-συντροφιάς-2" element={<Navigate to='/blog-article/physiotherapy' />} />
         <Route path="/about-me/συνέντευξη" element={<Navigate to='#education' />} />
       </Routes>
-      </Suspense>
     </>
   );
 };

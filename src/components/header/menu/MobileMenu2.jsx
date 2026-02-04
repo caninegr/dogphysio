@@ -31,9 +31,7 @@ const menuContent = [
   },
   {
     name: "Άλλα",
-    activeClass: "",
-    menuClass: "two-columns",
-    dropDownItems: [
+        dropDownItems: [
       {
         name: "Η Ομάδα",
         routerPath: "/team",
@@ -51,6 +49,7 @@ const menuContent = [
         routerPath: "/coming-soon",
       },
     ],
+
   },
 ];
 
