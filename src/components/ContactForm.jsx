@@ -53,7 +53,7 @@ const ContactForm = () => {
     //emailjs
       //.sendForm("service_cekj3z1", "template_glky4lt", form.current, {      
       //  publicKey: "5-h1SOGyHXyb7DPu6",
-      emailjs.send("service_28f8a5n", "template_zpbvy6a", params, {      
+      emailjs.send("service_28f8a5n_old", "template_zpbvy6a", params, {      
           publicKey: "5-h1SOGyHXyb7DPu6",
       })
       .then((res) => {
