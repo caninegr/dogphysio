@@ -34,6 +34,7 @@ import WorksShowcase7 from "../views/inner-pages/portfolio/WorksShowcase7";
 
 // Others
 import Contact from "../views/inner-pages/Contact";
+import OnlineBooking from "../views/inner-pages/OnlineBooking";
 //import PricingInner from "../views/inner-pages/PricingInner";
 import Team from "../views/inner-pages/Team";
 import TeamEN from "../views/inner-pages/TeamEN";
@@ -90,6 +91,7 @@ const AllRoutes = () => {
         <Route path="/teamEN" element={<TeamEN />} />
         {/*<Route path="/pricing" element={<PricingInner />} />*/}
         <Route path="/contact" element={<Contact />} />
+        <Route path="/online-booking" element={<OnlineBooking />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />

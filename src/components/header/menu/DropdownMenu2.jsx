@@ -43,6 +43,12 @@ const menuContent = [
       },
     ],
   },
+  {
+    name: "Book Now",
+    activeClass: "",
+    menuClass: "",
+    routerPath: "/online-booking",
+  },
 ];
 
 const DropdownMenu2 = () => {

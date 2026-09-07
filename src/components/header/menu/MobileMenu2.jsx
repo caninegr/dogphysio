@@ -51,6 +51,10 @@ const menuContent = [
     ],
 
   },
+  {
+    name: "Book Now",
+    routerPath: "/online-booking",
+  },
 ];
 
 const MobileMenu2 = () => {
