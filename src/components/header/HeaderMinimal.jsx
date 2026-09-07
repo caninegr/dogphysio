@@ -15,7 +15,7 @@ const HeaderMinimal = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="/assets/img/root/logo-dark.svg"
+                  src="/assets/img/root/logo-dark.png"
                   alt="logo"
                   loading="lazy"
                 />

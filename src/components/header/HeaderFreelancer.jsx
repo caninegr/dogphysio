@@ -33,7 +33,7 @@ const HeaderFreelancer = () => {
                 <img
                   className="black"
                   //src="/assets/img/root/logo-center-dark.png"            
-                  src="/assets/img/root/logo-center-dark.svg" 
+                  src="/assets/img/root/logo-center-dark.png" 
                   alt=""
                   loading="lazy"
                   width={143}
