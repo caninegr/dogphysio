@@ -10,7 +10,7 @@ const ComingSoon = () => {
   return (
     <div>
       <Helmet>
-        <title>Φυσικοθεραπεία σε κατοικίδια - Volunteer</title>
+        <title>Στέλλα Κεχαγιά - Αποκατάσταση & Φυσικοθεραπεία σκύλων - Volunteer</title>
       </Helmet>
       {/* End Page SEO Content */}
 

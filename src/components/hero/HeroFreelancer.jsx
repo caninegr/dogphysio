@@ -2,8 +2,8 @@ import React from "react";
 
 const heroContent = {
   text1: "Στέλλα Κεχαγιά",
-  text2: " Φυσικοθεραπεία σε κατοικίδια",
-  text3: " στην Θεσσαλονίκη",
+  text2: "Αποκατάσταση & Φυσικοθεραπεία σκύλων",
+  text3: "στην Θεσσαλονίκη",
 };
 
 const heroSubContent = {
@@ -21,6 +21,7 @@ const HeroFreelancer = () => {
               has-secondary-font
               fw-normal
               text-center
+              fs-1
             "
         >
           {heroContent.text1} <br />

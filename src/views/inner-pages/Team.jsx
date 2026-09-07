@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div>
       <Helmet>
-        <title>Φυσικοθεραπεία σε κατοικίδια - Ομάδα</title>
+        <title>Αποκατάσταση & Φυσικοθεραπεία σκύλων - Ομάδα</title>
       </Helmet>
       {/* End Page SEO Content */}
 

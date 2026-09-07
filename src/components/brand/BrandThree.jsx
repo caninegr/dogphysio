@@ -21,6 +21,10 @@ const brandContent = [
     delayAnimation: "400",
     icon: "logo-5-black",
   },
+  {
+    delayAnimation: "400",
+    icon: "logo-6-black",
+  },  
 ];
 
 const BrandThree = () => {

@@ -32,7 +32,7 @@ const HeaderFreelancer = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="/assets/img/root/logo-center-dark.png"
+                  src="/assets/img/root/logo-center-dark.svg"
                   alt=""
                   loading="lazy"
                 />

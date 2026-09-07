@@ -35,7 +35,7 @@ const HomeFreelancer = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-freelancer ">
       <Helmet>
-        <title>Στέλλα Κεχαγιά - Φυσικοθεραπεία σε κατοικίδια</title>
+        <title>Στέλλα Κεχαγιά - Αποκατάσταση & Φυσικοθεραπεία σκύλων</title>
       </Helmet>
       {/* End Page SEO Content */}
 

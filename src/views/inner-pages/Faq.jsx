@@ -9,7 +9,7 @@ const Faq = () => {
   return (
     <div>
       <Helmet>
-        <title>Φυσικοθεραπεία σε κατοικίδια - Συχνές Ερωτήσεις</title>
+        <title>Αποκατάσταση & Φυσικοθεραπεία σκύλων - Συχνές Ερωτήσεις</title>
       </Helmet>
       {/* End Page SEO Content */}
 

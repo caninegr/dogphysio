@@ -2,7 +2,7 @@ import React from "react";
 
 const resumeContent = [
   {
-    year: "2000 - 2006",
+    year: "2000 - 2007",
     delayAnimation: "",
     infoContent: [
       {
@@ -16,17 +16,17 @@ const resumeContent = [
       {
         title: "Πρακτική άσκηση",
         subTitle: "Κλινική Mühlengrund, Reinhardshausen, Γερμανία",
-      },      
+      },
+      {
+        title: "Πλήρης Εργασία",
+        subTitle: "Κτηνιατρικό κέντρο Fachtierarzt Leonding, Αυστρία",
+      },            
     ],
   },
   {
     year: "2007 - 2019",
     delayAnimation: "",
     infoContent: [
-      {
-        title: "Πλήρης Εργασία",
-        subTitle: "Κτηνιατρικό κέντρο Fachtierarzt Leonding, Αυστρία",
-      },
       {
         title: "Canine Rehabilitation",
         subTitle: "University of Tennessee, USA",
@@ -39,6 +39,10 @@ const resumeContent = [
         title: "Παροχή φυσικοθεραπειών",
         subTitle: "σε Κτηνιατρικό κέντρο, Θεσσαλονίκη",
       },
+      {
+        title: "Παραδοσιακός και Βιοϊατρικός Βελονισμός",
+        subTitle: "ΕΦΕΑ & ΠΑΔΑ",
+      },      
     ],
   },
   {
@@ -46,21 +50,21 @@ const resumeContent = [
     delayAnimation: "",
     infoContent: [
       {
-        title: "Παραδοσιακός και Βιοϊατρικός Βελονισμός",
-        subTitle: "ΕΦΕΑ & ΠΑΔΑ",
-      },
-      {
         title: "Δημιουργία Ιδιωτικού Χώρου",
         subTitle: "Αποκλειστικά για φυσικοθεραπεία",
-      },
-      {
-        title: "Παροχή Υδροθεραπειών",
-        subTitle: "σε Συνεργασία με Cane Sentio",
       },
       {
         title: "Δημιουργία του Project",
         subTitle: "The Truth about Dogs",
       },
+      {
+        title: "Εγκατάσταση Υδροδιαδρόμου",
+        subTitle: "Τελευταίας τεχνολογίας AQUARUNNER",
+      },      
+      {
+        title: "Μεταπτυχιακό δίπλωμα (MSc) στην Βιοηθική",
+        subTitle: "Candidate στο Δημοκρίτειο Πανεπιστήμιο Θράκης",
+      },         
     ],
   },
 ];

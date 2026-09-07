@@ -14,7 +14,7 @@ const ServiceDetails = () => {
   return (
     <div>
       <Helmet>
-        <title>Φυσικοθεραπεία σε κατοικίδια</title>
+        <title>Αποκατάσταση & Φυσικοθεραπεία σκύλων</title>
       </Helmet>
       {/* End Page SEO Content */}
 

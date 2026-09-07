@@ -13,7 +13,7 @@ const BlogMasonry = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
-        <title>Φυσικοθεραπεία σε κατοικίδια - Άρθρα</title>
+        <title>Αποκατάσταση & Φυσικοθεραπεία σκύλων - Άρθρα</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
