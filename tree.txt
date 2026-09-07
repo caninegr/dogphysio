@@ -2769,7 +2769,7 @@
 02/01/2026  12:45 PM    <DIR>          intro
 01/30/2026  09:48 AM             4,090 logo-center-dark.png
 01/30/2026  09:48 AM             2,581 logo-center-white.png
-01/30/2026  09:48 AM             4,224 logo-dark.png
+01/30/2026  09:48 AM             4,224 logo-dark.svg
 01/30/2026  09:48 AM             1,509 logo-small-dark.png
 01/30/2026  09:48 AM             2,537 logo-white.png
 02/01/2026  12:45 PM    <DIR>          partners
@@ -109811,7 +109811,7 @@
 01/30/2026  09:48 AM    <DIR>          intro
 01/30/2026  09:48 AM             4,090 logo-center-dark.png
 01/30/2026  09:48 AM             2,581 logo-center-white.png
-01/30/2026  09:48 AM             4,224 logo-dark.png
+01/30/2026  09:48 AM             4,224 logo-dark.svg
 01/30/2026  09:48 AM             1,509 logo-small-dark.png
 01/30/2026  09:48 AM             2,537 logo-white.png
 01/30/2026  09:48 AM    <DIR>          partners
@@ -110324,7 +110324,7 @@
 01/30/2026  09:48 AM             6,033 logo-center-dark.png
 01/30/2026  09:48 AM           103,153 logo-center-dark.psd
 01/30/2026  09:48 AM             2,581 logo-center-white.png
-01/30/2026  09:48 AM             2,350 logo-dark.png
+01/30/2026  09:48 AM             2,350 logo-dark.svg
 01/30/2026  09:48 AM             1,509 logo-small-dark.png
 01/30/2026  09:48 AM             2,537 logo-white.png
 01/30/2026  09:48 AM             4,057 quote.png

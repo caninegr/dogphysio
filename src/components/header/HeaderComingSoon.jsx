@@ -11,7 +11,7 @@ const HeaderComingSoon = () => {
             <Link to="/" className="ptf-navbar-logo">
               <img
                 className="black"
-                src="/assets/img/root/logo-dark.png"
+                src="/assets/img/root/logo-dark.svg"
                 alt="logo"
                 loading="lazy"
               />

@@ -39,7 +39,7 @@ const HeaderHomeDefault = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="/assets/img/root/logo-dark.png"
+                  src="/assets/img/root/logo-dark.svg"
                   alt=""
                   loading="lazy"
                 />
