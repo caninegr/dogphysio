@@ -1,3 +1,22 @@
+/* FIX: AOS + lazy-loaded routes on mobile
+-------------------------------------------- */
+// App.js disables AOS's fade-in animation below 768px (`disable:
+// window.innerWidth < 768`) for performance. AOS "disables" itself by
+// stripping the data-aos attribute from whatever elements already exist in
+// the DOM at the exact moment AOS.init() runs — it never looks again.
+// Route components loaded via React.lazy mount later (after their chunk
+// fetches), so their data-aos="fade" elements are missed by that one-time
+// pass and are left with `opacity: 0` forever, from AOS's own stylesheet,
+// with no scroll/resize listener ever registered to bring them back.
+// Force full visibility below the same breakpoint AOS targets, independent
+// of when the element actually mounts.
+@media (max-width: 767px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* SECTION: PAGE CONTACT
 -------------------------------------------- */
 
@@ -5,6 +24,41 @@
   // background-image: url(../../img/root/contact-bubble.png);
   background-repeat: no-repeat;
   background-position: 100% 130px;
+}
+
+/* SECTION: PAGE ONLINE BOOKING
+-------------------------------------------- */
+
+.ptf-page--online-booking {
+  // The decorative wave/circle graphic (call-to-action.png) is 740x470px and
+  // rendered at native size with no background-size set, so on phone widths
+  // the section is narrower than the image itself — the browser clips the
+  // background to the element's box, cutting off the waves in the corners.
+  // Scale it down (and pull it back toward center) so it stays fully visible.
+  .ptf-booking-hero {
+    background-repeat: no-repeat;
+    background-position: calc(50% + 30px) calc(50% + 30px);
+
+    @include mq("small") {
+      background-size: 85% auto;
+      background-position: calc(50% + 12px) calc(50% + 12px);
+    }
+  }
+
+  // The "Book Now" call-to-action is huge on desktop by design, but at
+  // phone widths (fz-100/fz-90--md still leaves it oversized) it needs to
+  // shrink further so it doesn't dominate the screen.
+  .ptf-filled-link {
+    @include mq("small") {
+      font-size: px2rem(52px);
+    }
+  }
+
+  .fz-60 {
+    @include mq("small") {
+      font-size: px2rem(32px);
+    }
+  }
 }
 
 /* SECTION: PAGE SERVICE DETAIL

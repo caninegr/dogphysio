@@ -20,16 +20,19 @@ const OnlineBooking = () => {
         <div className="ptf-main">
           <div className="ptf-page ptf-page--online-booking">
             <section
+              className="ptf-booking-hero"
               style={{
                 backgroundImage: "url(/assets/img/root/call-to-action.png)",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "calc(50% + 30px) calc(50% + 30px)",
               }}
             >
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "15.625rem", "--ptf-md": "7.8125rem" }}
+                style={{
+                  "--ptf-xxl": "15.625rem",
+                  "--ptf-md": "7.8125rem",
+                  "--ptf-sm": "5rem",
+                }}
               ></div>
 
               <div className="container-xxl text-center">
@@ -82,7 +85,11 @@ const OnlineBooking = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{
+                  "--ptf-xxl": "10rem",
+                  "--ptf-md": "5rem",
+                  "--ptf-sm": "3.75rem",
+                }}
               ></div>
             </section>
           </div>

@@ -33,6 +33,7 @@ const ImageGrid = () => {
                       role="button"
                       ref={ref}
                       onClick={open}
+                      loading="lazy"
                     />
                   )}
                 </Item>

@@ -298,6 +298,7 @@ const PortfolioListing = () => {
                           <img
                             src={`/assets/img/portfolio/grid/${val.imgPopup}.png`}
                             alt="popup"
+                            loading="lazy"
                           />
                         </div>
                       </ReactTooltip>

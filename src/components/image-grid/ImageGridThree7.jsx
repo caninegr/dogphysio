@@ -52,6 +52,7 @@ const ImageGridThree = () => {
                       role="button"
                       ref={ref}
                       onClick={open}
+                      loading="lazy"
                     />
                   )}
                 </Item>

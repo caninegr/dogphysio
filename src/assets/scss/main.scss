@@ -18,8 +18,10 @@
 // react modal
 @import "node_modules/react-modal-video/scss/modal-video.scss";
 
-// fonts - Combined into ONE request for better performance
-@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Arima:wght@400;700&family=Manrope:wght@400;700&display=swap");
+// fonts
+// Google Fonts stylesheet is loaded via a <link> in public/index.html instead
+// of a CSS @import here — a CSS @import can't be fetched until this whole
+// stylesheet is downloaded and parsed, adding a render-blocking round trip.
 @import url("../fonts/CerebriSans/style.css");
 
 // icons
