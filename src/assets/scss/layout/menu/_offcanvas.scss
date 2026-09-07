@@ -121,20 +121,31 @@
   }
 }
 
-.pro-sidebar {
-  color: #000;
-  width: 100%;
-  .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
-    padding-left: 0 !important;
-    font-weight: 500;
-    font-size: 18px;
+// Scoped under .ptf-offcanvas-menu (rather than bare .pro-sidebar) so these
+// overrides always out-specificity react-pro-sidebar's own same-selector
+// dark-theme defaults (.pro-sidebar, .pro-sidebar > .pro-sidebar-inner),
+// regardless of which stylesheet's <style> tag the bundler happens to
+// inject into <head> last. With route-based code-splitting, the library's
+// CSS (imported inside MobileMenu2.jsx) can end up injected after this
+// file's, and same-specificity rules fall back to source order — without
+// this extra scope the tie previously went to the library, showing its
+// default near-black sidebar background instead of white.
+.ptf-offcanvas-menu {
+  .pro-sidebar {
+    color: #000;
+    width: 100%;
+    .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
+      padding-left: 0 !important;
+      font-weight: 500;
+      font-size: 18px;
+    }
   }
-}
-.pro-sidebar > .pro-sidebar-inner {
-  background: #fff;
-}
-.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
-  background-color: #fff;
+  .pro-sidebar > .pro-sidebar-inner {
+    background: #fff;
+  }
+  .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #fff;
+  }
 }
 
 .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
