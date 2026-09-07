@@ -36,8 +36,8 @@ const HeaderFreelancer = () => {
                   src="/assets/img/root/logo-center-dark.png" 
                   alt=""
                   loading="lazy"
-                  width={143}
-                  height={143}
+                  width={83}
+                  height={74}
                 />
                 <img
                   className="white"
